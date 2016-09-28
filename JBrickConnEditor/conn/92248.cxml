@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 92248.dat
+Description: Figure Friends Hips
+Date: 09/02/15 16.08-->
+<connections>
+<cpoint type="FR_LEGHOLE">
+<base x="-4.0" y="0.0" z="0.0"></base>
+<dir x="4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_HIPS">
+<base x="0.0" y="-11.5" z="0.0"></base>
+<dir x="0.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

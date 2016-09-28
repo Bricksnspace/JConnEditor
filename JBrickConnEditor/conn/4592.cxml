@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4592.dat
+Description: Hinge Control Stick Base
+Date: 14/01/15 15.52-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="10.0"></base>
+<dir x="-10.0" y="5.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="10.0"></base>
+<dir x="10.0" y="5.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="-10.0"></base>
+<dir x="-10.0" y="5.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="-10.0"></base>
+<dir x="10.0" y="5.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="HSLOT">
+<base x="-2.0" y="0.0" z="0.0"></base>
+<dir x="2.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

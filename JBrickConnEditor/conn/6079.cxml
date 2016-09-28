@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6079.dat
+Description: Fence  1 x  8 x  2
+Date: 24/03/15 12.01-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-50.0" y="64.0" z="0.0"></base>
+<dir x="-50.0" y="60.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="50.0" y="64.0" z="0.0"></base>
+<dir x="50.0" y="60.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="50.0" y="0.0" z="0.0"></base>
+<dir x="50.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-50.0" y="0.0" z="0.0"></base>
+<dir x="-50.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="50.0" y="-4.0" z="0.0"></base>
+<dir x="50.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-50.0" y="-4.0" z="0.0"></base>
+<dir x="-50.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="50.0" y="0.0" z="0.0"></base>
+<dir x="50.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-50.0" y="0.0" z="0.0"></base>
+<dir x="-50.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

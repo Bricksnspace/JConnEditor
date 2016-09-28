@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 10352.dat
+Description: ~Animal Horse Poseable Body Left
+Date: 22/06/15 14.16-->
+<connections>
+<cpoint type="HSLOT">
+<base x="4.0" y="0.0" z="0.0"></base>
+<dir x="0.5" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="HFINGER">
+<base x="10.0" y="-6.5" z="-74.5"></base>
+<dir x="5.0" y="-6.5" z="-74.5"></dir>
+</cpoint>
+</connections>
+

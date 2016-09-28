@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: u1126.dat
+Description: Hinge Plate  1 x  2 with 2 Fingers at Outer Edges
+Date: 30/03/15 14.23-->
+<connections>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="0.0"></base>
+<dir x="10.0" y="6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="0.0"></base>
+<dir x="-10.0" y="6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="HSLOT">
+<base x="30.0" y="4.0" z="-6.0"></base>
+<dir x="30.0" y="4.0" z="6.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUDJ">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="6.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

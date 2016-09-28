@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 53451.dat
+Description: Minifig Helmet Viking Horn
+Date: 07/02/15 19.32-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="-8.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4522.dat
+Description: Minifig Tool Mallet
+Date: 19/12/14 11.00-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="46.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 165.dat
+Description: ~Technic Pneumatic Tube End
+Date: 23/03/15 15.35-->
+<connections>
+<cpoint type="PNEU_HOSE">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

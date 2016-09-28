@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 15397.dat
+Description: Plate  3 x  3 Cross
+Date: 14/04/15 14.25-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-20.0" y="8.0" z="0.0"></base>
+<dir x="-20.0" y="4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="-20.0"></base>
+<dir x="0.0" y="4.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="20.0" y="8.0" z="0.0"></base>
+<dir x="20.0" y="4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="20.0"></base>
+<dir x="0.0" y="4.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-20.0" y="0.0" z="0.0"></base>
+<dir x="-20.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="20.0" y="0.0" z="0.0"></base>
+<dir x="20.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="20.0"></base>
+<dir x="0.0" y="-4.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="-4.0" z="-20.0"></dir>
+</cpoint>
+</connections>
+

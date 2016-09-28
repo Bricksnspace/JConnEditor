@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4598.dat
+Description: Bracket  2 x  3 -  2 x  2
+Date: 26/02/15 17.11-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="10.0"></base>
+<dir x="0.0" y="6.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="20.0"></base>
+<dir x="10.0" y="6.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="20.0"></base>
+<dir x="-10.0" y="6.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="0.0"></base>
+<dir x="10.0" y="6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="0.0"></base>
+<dir x="-10.0" y="6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="-10.0"></base>
+<dir x="0.0" y="6.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="-20.0"></base>
+<dir x="10.0" y="6.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="-20.0"></base>
+<dir x="-10.0" y="6.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="-20.0" z="38.0"></base>
+<dir x="0.0" y="-20.0" z="36.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="-10.0" z="38.0"></base>
+<dir x="10.0" y="-10.0" z="36.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="-10.0" z="38.0"></base>
+<dir x="-10.0" y="-10.0" z="36.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="-30.0" z="38.0"></base>
+<dir x="10.0" y="-30.0" z="36.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="-30.0" z="38.0"></base>
+<dir x="-10.0" y="-30.0" z="36.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="20.0"></base>
+<dir x="0.0" y="-4.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="20.0"></base>
+<dir x="0.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-14.0" y="-6.0" z="20.0"></base>
+<dir x="-10.0" y="-6.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-6.0" z="20.0"></base>
+<dir x="14.0" y="-6.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="20.0"></base>
+<dir x="0.0" y="-4.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-20.0"></base>
+<dir x="10.0" y="-4.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="-20.0"></base>
+<dir x="-10.0" y="-4.0" z="-20.0"></dir>
+</cpoint>
+</connections>
+

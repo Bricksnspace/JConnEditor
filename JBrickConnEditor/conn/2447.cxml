@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2447.dat
+Description: Minifig Helmet Visor
+Date: 24/12/14 20.49-->
+<connections>
+<cpoint type="GLASS">
+<base x="15.0" y="6.5" z="0.0"></base>
+<dir x="11.0" y="6.5" z="0.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="-15.0" y="6.5" z="0.0"></base>
+<dir x="-11.0" y="6.5" z="0.0"></dir>
+</cpoint>
+</connections>
+

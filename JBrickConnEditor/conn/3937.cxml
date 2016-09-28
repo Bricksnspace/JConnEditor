@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3937.dat
+Description: Hinge  1 x  2 Base
+Date: 02/12/14 14.33-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="0.0"></base>
+<dir x="-10.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="0.0"></base>
+<dir x="10.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-20.0" y="10.0" z="0.0"></base>
+<dir x="-16.0" y="10.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="20.0" y="10.0" z="0.0"></base>
+<dir x="16.0" y="10.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

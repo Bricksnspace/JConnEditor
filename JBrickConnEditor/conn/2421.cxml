@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2421.dat
+Description: Propellor  3 Blade  4 Diameter
+Date: 14/04/15 16.28-->
+<connections>
+<cpoint type="R_WHEELPIN">
+<base x="0.0" y="-5.0" z="0.0"></base>
+<dir x="0.0" y="5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_WHEELPIN">
+<base x="0.0" y="5.0" z="0.0"></base>
+<dir x="0.0" y="-5.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

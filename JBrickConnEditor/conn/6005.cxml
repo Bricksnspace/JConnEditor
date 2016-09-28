@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6005.dat
+Description: Arch  1 x  3 x  2 with Curved Top
+Date: 11/01/15 21.46-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="48.0" z="-40.0"></base>
+<dir x="0.0" y="44.0" z="-40.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="16.0" z="0.0"></base>
+<dir x="0.0" y="12.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

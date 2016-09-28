@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3873.dat
+Description: Technic Chain Tread 17
+Date: 10/02/15 15.37-->
+<connections>
+<cpoint type="GLASS">
+<base x="-8.0" y="0.0" z="16.0"></base>
+<dir x="-10.0" y="0.0" z="16.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="8.0" y="0.0" z="16.0"></base>
+<dir x="10.0" y="0.0" z="16.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="-8.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="8.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

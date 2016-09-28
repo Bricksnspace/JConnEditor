@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 55817.dat
+Description: Wheel 21 x 56 with 8 Spokes Armoured
+Date: 21/01/15 17.07-->
+<connections>
+<cpoint type="STUD">
+<base x="10.0" y="10.0" z="-20.0"></base>
+<dir x="10.0" y="10.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="-10.0" z="-20.0"></base>
+<dir x="10.0" y="-10.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="10.0" z="-20.0"></base>
+<dir x="-10.0" y="10.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="-10.0" z="-20.0"></base>
+<dir x="-10.0" y="-10.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="10.0" z="-20.0"></base>
+<dir x="10.0" y="10.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="-10.0" z="-20.0"></base>
+<dir x="10.0" y="-10.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="10.0" z="-20.0"></base>
+<dir x="-10.0" y="10.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="-10.0" z="-20.0"></base>
+<dir x="-10.0" y="-10.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="10.0" z="-24.0"></base>
+<dir x="10.0" y="10.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-10.0" z="-24.0"></base>
+<dir x="10.0" y="-10.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="10.0" z="-24.0"></base>
+<dir x="-10.0" y="10.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-10.0" z="-24.0"></base>
+<dir x="-10.0" y="-10.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-60.0" y="0.0" z="-38.0"></base>
+<dir x="-60.0" y="0.0" z="-32.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="60.0" y="0.0" z="-38.0"></base>
+<dir x="60.0" y="0.0" z="-32.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-42.5" y="-42.5" z="-37.0"></base>
+<dir x="-42.5" y="-42.5" z="-31.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="42.5" y="-42.5" z="-37.0"></base>
+<dir x="42.5" y="-42.5" z="-25.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-60.0" z="-38.5"></base>
+<dir x="0.0" y="-60.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="60.0" z="-38.0"></base>
+<dir x="0.0" y="60.0" z="-28.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-42.5" y="42.5" z="-38.0"></base>
+<dir x="-42.5" y="42.5" z="-24.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="42.5" y="42.5" z="-39.0"></base>
+<dir x="42.5" y="42.5" z="-23.5"></dir>
+</cpoint>
+</connections>
+

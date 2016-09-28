@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 60800a.dat
+Description: Window Shutter  1 x  2.667 x  3 with Handle
+Date: 26/06/15 16.26-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="7.0" z="0.0"></base>
+<dir x="0.0" y="17.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="55.0" z="0.0"></base>
+<dir x="0.0" y="65.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 577b.dat
+Description: Minifig Lightsaber Hilt with Bottom Ring
+Date: 19/12/14 23.08-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="31.0" z="0.0"></base>
+<dir x="0.0" y="36.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="31.0" z="0.0"></base>
+<dir x="0.0" y="36.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="26.0" z="0.0"></base>
+<dir x="0.0" y="14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="36.0" z="0.0"></base>
+<dir x="0.0" y="31.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

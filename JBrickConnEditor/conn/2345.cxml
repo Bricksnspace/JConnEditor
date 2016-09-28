@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2345.dat
+Description: Panel Wall  3 x  3 x  6 Corner
+Date: 14/04/15 15.40-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-10.0" y="144.0" z="10.0"></base>
+<dir x="-10.0" y="142.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="144.0" z="20.0"></base>
+<dir x="0.0" y="142.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-20.0" y="144.0" z="20.0"></base>
+<dir x="-20.0" y="142.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="144.0" z="0.0"></base>
+<dir x="0.0" y="142.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-20.0" y="144.0" z="0.0"></base>
+<dir x="-20.0" y="142.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-20.0" y="120.0" z="-20.0"></base>
+<dir x="-20.0" y="116.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="20.0" y="120.0" z="20.0"></base>
+<dir x="20.0" y="116.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-20.0" y="24.0" z="20.0"></base>
+<dir x="-20.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="24.0" z="20.0"></base>
+<dir x="0.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="20.0" y="24.0" z="20.0"></base>
+<dir x="20.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-20.0" y="24.0" z="0.0"></base>
+<dir x="-20.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-20.0" y="24.0" z="-20.0"></base>
+<dir x="-20.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-20.0" y="20.0" z="20.0"></base>
+<dir x="-20.0" y="24.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="20.0" z="20.0"></base>
+<dir x="0.0" y="24.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="20.0" y="20.0" z="20.0"></base>
+<dir x="20.0" y="24.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-20.0" y="20.0" z="0.0"></base>
+<dir x="-20.0" y="24.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-20.0" y="20.0" z="-20.0"></base>
+<dir x="-20.0" y="24.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-20.0" y="24.0" z="20.0"></base>
+<dir x="-20.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="24.0" z="20.0"></base>
+<dir x="0.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="20.0" y="24.0" z="20.0"></base>
+<dir x="20.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-20.0" y="24.0" z="0.0"></base>
+<dir x="-20.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-20.0" y="24.0" z="-20.0"></base>
+<dir x="-20.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+</connections>
+

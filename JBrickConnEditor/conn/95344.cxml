@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 95344.dat
+Description: Handle for Bucket  1 x  1 x  1
+Date: 09/02/15 14.46-->
+<connections>
+<cpoint type="BAR">
+<base x="6.0" y="-17.5" z="0.0"></base>
+<dir x="-6.0" y="-17.5" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="-13.0" y="0.0" z="0.0"></base>
+<dir x="-15.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="13.0" y="0.0" z="0.0"></base>
+<dir x="15.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

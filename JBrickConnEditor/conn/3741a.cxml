@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3741a.dat
+Description: Plant Flower Stem
+Date: 22/12/14 11.49-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="12.0" z="0.0"></base>
+<dir x="0.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="12.0" z="-10.0"></base>
+<dir x="-10.0" y="8.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="12.0" z="-10.0"></base>
+<dir x="10.0" y="8.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="12.0" z="10.0"></base>
+<dir x="-10.0" y="8.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="12.0" z="10.0"></base>
+<dir x="10.0" y="8.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="DECPIN">
+<base x="-13.6" y="-20.6" z="-7.8"></base>
+<dir x="-15.0" y="-26.4" z="-8.6"></dir>
+</cpoint>
+<cpoint type="DECPIN">
+<base x="0.0" y="-15.8" z="14.400001"></base>
+<dir x="0.0" y="-21.4" z="16.0"></dir>
+</cpoint>
+<cpoint type="DECPIN">
+<base x="14.8" y="-25.4" z="-8.6"></base>
+<dir x="16.0" y="-31.2" z="-9.400001"></dir>
+</cpoint>
+</connections>
+

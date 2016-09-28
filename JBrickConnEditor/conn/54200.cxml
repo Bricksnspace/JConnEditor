@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 54200.dat
+Description: Slope Brick 31  1 x  1 x  0.667
+Date: 21/11/14 23.57-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

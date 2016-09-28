@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 47222.dat
+Description: ~Technic Pneumatic Valve with Pegholes Casing
+Date: 23/03/15 16.24-->
+<connections>
+<cpoint type="R_STUD">
+<base x="10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="-20.0" z="0.0"></base>
+<dir x="0.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="-20.0" z="0.0"></base>
+<dir x="0.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="10.0" y="-20.0" z="0.0"></base>
+<dir x="0.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-10.0" y="-20.0" z="0.0"></base>
+<dir x="0.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="10.0" y="-20.0" z="0.0"></base>
+<dir x="0.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-10.0" y="-20.0" z="0.0"></base>
+<dir x="0.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="24.0" y="11.0" z="-30.0"></base>
+<dir x="15.0" y="11.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="24.0" y="-11.0" z="-30.0"></base>
+<dir x="15.0" y="-11.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="24.0" y="0.0" z="-24.0"></base>
+<dir x="15.0" y="0.0" z="-24.0"></dir>
+</cpoint>
+</connections>
+

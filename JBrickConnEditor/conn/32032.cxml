@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 32032.dat
+Description: ~Technic Pneumatic Airtank End
+Date: 23/03/15 15.39-->
+<connections>
+<cpoint type="CLIP">
+<base x="76.0" y="0.0" z="0.0"></base>
+<dir x="60.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="76.0" y="0.0" z="0.0"></base>
+<dir x="60.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="74.0" y="32.0" z="0.0"></base>
+<dir x="66.0" y="24.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="62.0" y="20.0" z="0.0"></base>
+<dir x="74.0" y="32.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

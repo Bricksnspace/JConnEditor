@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 64648.dat
+Description: Animal Fish Straight
+Date: 11/02/15 16.29-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="-4.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="-4.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="34.0"></base>
+<dir x="0.0" y="0.0" z="46.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="-4.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

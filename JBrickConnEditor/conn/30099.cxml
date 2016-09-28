@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 30099.dat
+Description: Arch  1 x  5 x  4 Inverted
+Date: 24/02/15 18.51-->
+<connections>
+<cpoint type="R_STUD">
+<base x="80.0" y="96.0" z="0.0"></base>
+<dir x="80.0" y="94.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="60.0" y="96.0" z="0.0"></base>
+<dir x="60.0" y="94.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="60.0" y="96.0" z="0.0"></base>
+<dir x="60.0" y="84.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="40.0" y="96.0" z="0.0"></base>
+<dir x="40.0" y="84.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="20.0" y="72.0" z="0.0"></base>
+<dir x="20.0" y="68.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="48.0" z="0.0"></base>
+<dir x="0.0" y="44.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="80.0" y="88.0" z="0.0"></base>
+<dir x="80.0" y="84.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUDJ">
+<base x="70.0" y="96.0" z="0.0"></base>
+<dir x="70.0" y="94.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUDJ">
+<base x="50.0" y="96.0" z="0.0"></base>
+<dir x="50.0" y="84.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

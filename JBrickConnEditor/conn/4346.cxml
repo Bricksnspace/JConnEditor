@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4346.dat
+Description: Container Box  2 x  2 x  2 Door with Slot
+Date: 16/12/14 16.40-->
+<connections>
+<cpoint type="HSLOT">
+<base x="-16.0" y="44.0" z="-25.0"></base>
+<dir x="-12.0" y="44.0" z="-25.0"></dir>
+</cpoint>
+<cpoint type="HSLOT">
+<base x="16.0" y="44.0" z="-25.0"></base>
+<dir x="12.0" y="44.0" z="-25.0"></dir>
+</cpoint>
+</connections>
+

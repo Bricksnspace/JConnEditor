@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 92246.dat
+Description: Figure Friends Male Left Arm
+Date: 09/02/15 17.40-->
+<connections>
+<cpoint type="STUD">
+<base x="13.5" y="30.25" z="4.75"></base>
+<dir x="13.5" y="30.25" z="1.25"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="13.5" y="30.25" z="1.25"></base>
+<dir x="13.5" y="30.25" z="12.25"></dir>
+</cpoint>
+<cpoint type="FR_ARMPIN">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="-11.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 10350.dat
+Description: ~Animal Horse Poseable Head Left
+Date: 22/06/15 14.02-->
+<connections>
+<cpoint type="HSLOT">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="3.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4624.dat
+Description: Wheel Rim  6.4 x  8
+Date: 11/12/14 11.44-->
+<connections>
+<cpoint type="R_WHEELPIN">
+<base x="0.0" y="0.0" z="8.0"></base>
+<dir x="0.0" y="0.0" z="-2.0"></dir>
+</cpoint>
+<cpoint type="R_TYRE">
+<base x="0.0" y="0.0" z="-4.0"></base>
+<dir x="0.0" y="0.0" z="4.0"></dir>
+</cpoint>
+</connections>
+

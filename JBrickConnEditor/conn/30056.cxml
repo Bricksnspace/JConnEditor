@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 30056.dat
+Description: Fence Spindled  4 x  4 x  2 Quarter Round
+Date: 24/03/15 11.56-->
+<connections>
+<cpoint type="R_STUD">
+<base x="10.0" y="48.0" z="-70.0"></base>
+<dir x="10.0" y="44.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="50.0" y="48.0" z="-50.0"></base>
+<dir x="50.0" y="44.0" z="-50.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="70.0" y="48.0" z="-10.0"></base>
+<dir x="70.0" y="44.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="70.0" y="0.0" z="-10.0"></base>
+<dir x="70.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="0.0" z="-70.0"></base>
+<dir x="10.0" y="-4.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="70.0" y="-4.0" z="-10.0"></base>
+<dir x="70.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-4.0" z="-70.0"></base>
+<dir x="10.0" y="0.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="70.0" y="0.0" z="-10.0"></base>
+<dir x="70.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-70.0"></base>
+<dir x="10.0" y="-4.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="10.0" y="36.0" z="-70.0"></base>
+<dir x="10.0" y="4.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="32.0" y="36.0" z="-64.0"></base>
+<dir x="32.0" y="4.0" z="-64.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="50.0" y="36.0" z="-50.0"></base>
+<dir x="50.0" y="4.0" z="-50.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="64.0" y="36.0" z="-32.0"></base>
+<dir x="64.0" y="4.0" z="-32.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="70.0" y="36.0" z="-10.0"></base>
+<dir x="70.0" y="4.0" z="-10.0"></dir>
+</cpoint>
+</connections>
+

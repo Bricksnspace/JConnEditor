@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2526.dat
+Description: Minifig Epaulette
+Date: 10/02/15 13.17-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="3.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_MFNECK">
+<base x="0.0" y="3.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

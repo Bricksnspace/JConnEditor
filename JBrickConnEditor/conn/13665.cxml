@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 13665.dat
+Description: Animal Bird Crow
+Date: 02/03/15 16.53-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-8.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6628.dat
+Description: Technic Pin Towball with Friction
+Date: 02/12/14 15.50-->
+<connections>
+<cpoint type="PIN">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="20.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BALL">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 59230.dat
+Description: Minifig Mechanical Arm Straight
+Date: 17/12/14 11.16-->
+<connections>
+<cpoint type="CLIP">
+<base x="-4.0" y="0.0" z="0.0"></base>
+<dir x="4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="40.0" z="-4.0"></base>
+<dir x="0.0" y="40.0" z="4.0"></dir>
+</cpoint>
+</connections>
+

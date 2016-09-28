@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 30292.dat
+Description: Flag  7 x  3 with Rod
+Date: 24/03/15 12.16-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="24.0" z="0.0"></base>
+<dir x="0.0" y="-24.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

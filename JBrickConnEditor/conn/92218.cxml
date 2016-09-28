@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 92218.dat
+Description: Claw  7L with  3 Bars  0.5L
+Date: 25/02/15 14.17-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="10.0" z="-20.0"></base>
+<dir x="0.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="10.0" z="-40.0"></base>
+<dir x="0.0" y="20.0" z="-40.0"></dir>
+</cpoint>
+</connections>
+

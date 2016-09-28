@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 41529.dat
+Description: Hinge Wedge  1 x  3 Locking with 2 Fingers, 2 Studs and Clip
+Date: 21/01/15 16.47-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="24.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="16.0" z="0.0"></base>
+<dir x="10.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="16.0" z="0.0"></base>
+<dir x="-10.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="24.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUDJ">
+<base x="0.0" y="16.0" z="0.0"></base>
+<dir x="0.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="24.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-20.0" y="0.0" z="0.0"></base>
+<dir x="-20.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLHFORK">
+<base x="19.0" y="10.0" z="-4.0"></base>
+<dir x="19.0" y="10.0" z="4.0"></dir>
+</cpoint>
+<cpoint type="CLHFORK">
+<base x="19.0" y="10.0" z="4.0"></base>
+<dir x="19.0" y="10.0" z="-4.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 60601.dat
+Description: Glass for Window  1 x  2 x  2 without Sill
+Date: 26/11/14 14.22-->
+<connections>
+<cpoint type="GLASS">
+<base x="0.0" y="4.0" z="-5.0"></base>
+<dir x="0.0" y="2.0" z="-5.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="0.0" y="39.0" z="-5.0"></base>
+<dir x="0.0" y="41.0" z="-5.0"></dir>
+</cpoint>
+</connections>
+

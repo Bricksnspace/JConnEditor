@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 61184.dat
+Description: Technic Pin 1/2 with Bar 2L
+Date: 19/12/14 16.30-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PIN">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="-20.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-20.0" y="0.0" z="0.0"></base>
+<dir x="-60.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="4.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

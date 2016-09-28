@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 11090.dat
+Description: Bar Tube with Clip
+Date: 07/02/15 19.12-->
+<connections>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="4.0"></base>
+<dir x="0.0" y="0.0" z="-4.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="30.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

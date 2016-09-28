@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6020.dat
+Description: Bar  7 x  3 with Double Clips
+Date: 17/12/14 12.35-->
+<connections>
+<cpoint type="BAR">
+<base x="26.0" y="0.0" z="140.0"></base>
+<dir x="26.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-26.0" y="0.0" z="140.0"></base>
+<dir x="-26.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="0.0" z="140.0"></base>
+<dir x="-26.0" y="0.0" z="140.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="0.0" z="120.0"></base>
+<dir x="-26.0" y="0.0" z="120.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="0.0" z="100.0"></base>
+<dir x="-26.0" y="0.0" z="100.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="0.0" z="80.0"></base>
+<dir x="-26.0" y="0.0" z="80.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="0.0" z="60.0"></base>
+<dir x="-26.0" y="0.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="0.0" z="40.0"></base>
+<dir x="-26.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="0.0" z="20.0"></base>
+<dir x="-26.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-20.0" y="0.0" z="0.0"></base>
+<dir x="-12.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="12.0" y="0.0" z="0.0"></base>
+<dir x="20.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

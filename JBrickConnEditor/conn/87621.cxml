@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 87621.dat
+Description: Animal Pig
+Date: 02/03/15 16.49-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="40.0" z="-10.0"></base>
+<dir x="0.0" y="38.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="40.0" z="10.0"></base>
+<dir x="0.0" y="38.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="40.0" z="30.0"></base>
+<dir x="0.0" y="38.0" z="30.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

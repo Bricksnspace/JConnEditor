@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 30152.dat
+Description: Minifig Tool Magnifying Glass
+Date: 09/02/15 13.46-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="60.0" z="0.0"></base>
+<dir x="0.0" y="40.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

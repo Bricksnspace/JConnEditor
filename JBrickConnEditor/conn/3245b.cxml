@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3245b.dat
+Description: Brick  1 x  2 x  2 with Inside Axleholder
+Date: 19/01/15 13.56-->
+<connections>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="48.0" z="0.0"></base>
+<dir x="-10.0" y="44.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="48.0" z="0.0"></base>
+<dir x="10.0" y="44.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="48.0" z="0.0"></base>
+<dir x="0.0" y="4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="4.0" z="0.0"></base>
+<dir x="0.0" y="48.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

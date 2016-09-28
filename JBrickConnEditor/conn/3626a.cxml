@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3626a.dat
+Description: Minifig Head with Solid Stud
+Date: 10/02/15 13.11-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="24.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="-10.0"></base>
+<dir x="-10.0" y="20.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="-10.0"></base>
+<dir x="10.0" y="20.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="10.0"></base>
+<dir x="-10.0" y="20.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="10.0"></base>
+<dir x="10.0" y="20.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_MFNECK">
+<base x="0.0" y="24.0" z="0.0"></base>
+<dir x="0.0" y="4.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

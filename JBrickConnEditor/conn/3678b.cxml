@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3678bs01.dat
+Description: ~Slope Brick 65  2 x  2 x  2 w/ Center Tube w/o Front and Back
+Date: 26/11/14 12.10-->
+<connections>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="48.0" z="-10.0"></base>
+<dir x="0.0" y="46.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="48.0" z="0.0"></base>
+<dir x="10.0" y="46.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="48.0" z="0.0"></base>
+<dir x="-10.0" y="46.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="48.0" z="-20.0"></base>
+<dir x="10.0" y="46.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="48.0" z="-20.0"></base>
+<dir x="-10.0" y="46.0" z="-20.0"></dir>
+</cpoint>
+</connections>
+

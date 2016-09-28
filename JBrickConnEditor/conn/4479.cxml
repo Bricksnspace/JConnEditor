@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4479.dat
+Description: Minifig Metal Detector
+Date: 19/12/14 16.22-->
+<connections>
+<cpoint type="STUD">
+<base x="28.0" y="8.0" z="0.0"></base>
+<dir x="32.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="18.0" y="8.0" z="6.0"></base>
+<dir x="18.0" y="8.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="18.0" y="8.0" z="-6.0"></base>
+<dir x="18.0" y="8.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-55.072" y="-4.728" z="0.0"></base>
+<dir x="-52.244" y="-7.556" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-61.436" y="1.636" z="0.0"></base>
+<dir x="-59.668003" y="-0.13199997" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-54.366" y="8.706" z="10.0"></base>
+<dir x="-52.598" y="6.938" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-68.506004" y="-5.434" z="10.0"></base>
+<dir x="-66.738" y="-7.202" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-54.366" y="8.706" z="-10.0"></base>
+<dir x="-52.598" y="6.938" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-68.506004" y="-5.434" z="-10.0"></base>
+<dir x="-66.738" y="-7.202" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="28.0" y="8.0" z="0.0"></base>
+<dir x="32.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="18.0" y="8.0" z="6.0"></base>
+<dir x="18.0" y="8.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="18.0" y="8.0" z="-6.0"></base>
+<dir x="18.0" y="8.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-55.072" y="-4.728" z="0.0"></base>
+<dir x="-52.244" y="-7.556" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-4.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="16.0" z="0.0"></base>
+<dir x="0.0" y="28.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="18.0" y="0.0" z="0.0"></base>
+<dir x="18.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-12.0" y="8.0" z="0.0"></base>
+<dir x="-42.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="32.0" y="8.0" z="0.0"></base>
+<dir x="28.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="18.0" y="8.0" z="10.0"></base>
+<dir x="18.0" y="8.0" z="6.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="18.0" y="8.0" z="-10.0"></base>
+<dir x="18.0" y="8.0" z="-6.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-52.244" y="-7.556" z="0.0"></base>
+<dir x="-55.072" y="-4.728" z="0.0"></dir>
+</cpoint>
+</connections>
+

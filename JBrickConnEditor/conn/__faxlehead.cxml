@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: faxle.dat
+Description: ~LSynth Technic Flexible Axle - End Piece
+Date: 18/03/15 13.49-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="40.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 99249.dat
+Description: Plant Flower Stem with Bar
+Date: 22/12/14 11.32-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="DECPIN">
+<base x="-10.0" y="-32.0" z="-6.0"></base>
+<dir x="-13.25" y="-37.0" z="-7.75"></dir>
+</cpoint>
+<cpoint type="DECPIN">
+<base x="12.0" y="-35.0" z="-7.0"></base>
+<dir x="15.0" y="-40.0" z="-8.6"></dir>
+</cpoint>
+<cpoint type="DECPIN">
+<base x="0.0" y="-29.6" z="10.400001"></base>
+<dir x="0.0" y="-34.600002" z="13.6"></dir>
+</cpoint>
+</connections>
+

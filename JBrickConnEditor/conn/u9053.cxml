@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: u9053.dat
+Description: ~Technic Flex-System Hose End
+Date: 23/03/15 15.09-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="24.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 89522.dat
+Description: Animal Horn Spiral
+Date: 26/06/15 14.40-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="8.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 57908.dat
+Description: Brick  2 x  2 with Two Ball Joints
+Date: 15/03/15 0.19-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="24.0" z="0.0"></base>
+<dir x="0.0" y="14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="10.0"></base>
+<dir x="10.0" y="14.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="10.0"></base>
+<dir x="-10.0" y="14.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="-10.0"></base>
+<dir x="10.0" y="14.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="-10.0"></base>
+<dir x="-10.0" y="14.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="BALL">
+<base x="-40.0" y="10.0" z="0.0"></base>
+<dir x="-40.0" y="10.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BALL">
+<base x="40.0" y="10.0" z="0.0"></base>
+<dir x="40.0" y="10.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="10.0"></base>
+<dir x="10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="10.0"></base>
+<dir x="-10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-10.0"></base>
+<dir x="10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="-10.0"></base>
+<dir x="-10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+</connections>
+

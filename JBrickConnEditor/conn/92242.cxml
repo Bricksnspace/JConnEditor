@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 92242.dat
+Description: Figure Friends Man Torso
+Date: 10/02/15 13.39-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="-8.0" z="0.0"></base>
+<dir x="0.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_ARMHOLE">
+<base x="-12.5" y="0.0" z="0.0"></base>
+<dir x="-4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_ARMHOLE">
+<base x="12.5" y="0.0" z="0.0"></base>
+<dir x="4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_ARMHOLE">
+<base x="12.5" y="0.0" z="0.0"></base>
+<dir x="4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_TORSO">
+<base x="0.0" y="16.5" z="-1.0"></base>
+<dir x="0.0" y="12.5" z="-1.0"></dir>
+</cpoint>
+</connections>
+

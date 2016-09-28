@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 48729.dat
+Description: Bar  1.5L with Clip
+Date: 17/12/14 11.29-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="10.0" z="0.0"></base>
+<dir x="0.0" y="30.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="-4.0"></base>
+<dir x="0.0" y="0.0" z="4.0"></dir>
+</cpoint>
+</connections>
+

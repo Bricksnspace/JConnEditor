@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6134.dat
+Description: Hinge  2 x  2 Top
+Date: 02/12/14 14.35-->
+<connections>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="20.0"></base>
+<dir x="10.0" y="-4.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="20.0"></base>
+<dir x="-10.0" y="-4.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="0.0" z="20.0"></base>
+<dir x="10.0" y="-4.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="0.0" z="20.0"></base>
+<dir x="-10.0" y="-4.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-20.0" y="10.0" z="0.0"></base>
+<dir x="-16.0" y="10.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="16.0" y="10.0" z="0.0"></base>
+<dir x="20.0" y="10.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-4.0" z="0.0"></base>
+<dir x="10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-4.0" z="0.0"></base>
+<dir x="-10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-4.0" z="20.0"></base>
+<dir x="10.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-4.0" z="20.0"></base>
+<dir x="-10.0" y="0.0" z="20.0"></dir>
+</cpoint>
+</connections>
+

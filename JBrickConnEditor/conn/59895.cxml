@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 59895.dat
+Description: Tyre  4/ 80 x  8 Single Smooth Type 2
+Date: 11/12/14 11.42-->
+<connections>
+<cpoint type="TYRE">
+<base x="0.0" y="0.0" z="-4.0"></base>
+<dir x="0.0" y="0.0" z="4.0"></dir>
+</cpoint>
+<cpoint type="TYRE">
+<base x="0.0" y="0.0" z="4.0"></base>
+<dir x="0.0" y="0.0" z="-4.0"></dir>
+</cpoint>
+</connections>
+

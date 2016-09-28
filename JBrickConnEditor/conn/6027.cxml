@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6027.dat
+Description: Animal Dragon Head
+Date: 18/02/15 16.45-->
+<connections>
+<cpoint type="CLIP">
+<base x="0.0" y="2.5" z="-68.5"></base>
+<dir x="0.0" y="2.5" z="-16.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="11.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="-11.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

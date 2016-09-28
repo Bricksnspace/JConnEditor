@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Autodetected connection definition file
+Date: 29 mar 2015 
+Mario Pascucci
+-->
+<autodetect>
+  <primitive checkdup="0">
+    <name p="stud.dat"/>
+    <name p="stud9.dat"/>
+    <name p="stud10.dat"/>
+    <name p="stud15.dat"/>
+    <name p="studel.dat"/>
+    <name p="studp01.dat"/>
+    <cp type="STUD" bx="0" by="0" bz="0" hx="0" hy="-4" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="stud2.dat"/>
+    <name p="stud6.dat"/>
+    <name p="stud6a.dat"/>
+    <name p="stud2a.dat"/>
+    <cp type="STUD" bx="0" by="0" bz="0" hx="0" hy="-4" hz="0"></cp>
+    <cp type="CLIP" bx="0" by="-4" bz="0" hx="0" hy="0" hz="0"></cp>
+    <cp type="STUDJ" bx="0" by="0" bz="0" hx="0" hy="-4" hz="0"></cp>
+  </primitive>
+  <primitive checkdup="1">
+    <name p="stud4.dat"/>
+    <name p="stud4a.dat"/>
+    <name p="stud4o.dat"/>
+    <name p="stud4f1s.dat"/>
+    <name p="stud4f1w.dat"/>
+    <name p="stud4f2n.dat"/>
+    <name p="stud4f2s.dat"/>
+    <name p="stud4f2w.dat"/>
+    <name p="stud4f3s.dat"/>
+    <name p="stud4f4s.dat"/>
+    <name p="stud4f4n.dat"/>
+    <name p="stud4f5n.dat"/>
+    <cp type="R_STUD" bx="0" by="-4" bz="0" hx="0" hy="-2" hz="0"></cp>
+    <cp type="R_STUD" bx="10" by="-4" bz="10" hx="10" hy="-2" hz="10"></cp>
+    <cp type="R_STUD" bx="-10" by="-4" bz="10" hx="-10" hy="-2" hz="10"></cp>
+    <cp type="R_STUD" bx="10" by="-4" bz="-10" hx="10" hy="-2" hz="-10"></cp>
+    <cp type="R_STUD" bx="-10" by="-4" bz="-10" hx="-10" hy="-2" hz="-10"></cp>
+  </primitive>
+  <primitive checkdup="1">
+    <!-- minitalia underside cross stud --> 
+    <name p="stud12.dat"/>
+    <cp type="R_STUD" bx="10" by="-4" bz="10" hx="10" hy="-2" hz="10"></cp>
+    <cp type="R_STUD" bx="-10" by="-4" bz="10" hx="-10" hy="-2" hz="10"></cp>
+    <cp type="R_STUD" bx="10" by="-4" bz="-10" hx="10" hy="-2" hz="-10"></cp>
+    <cp type="R_STUD" bx="-10" by="-4" bz="-10" hx="-10" hy="-2" hz="-10"></cp>
+  </primitive>
+  <primitive checkdup="1">
+    <name p="stud4h.dat"/>
+    <name p="stud18a.dat"/>
+    <cp type="R_STUD" bx="0" by="-4" bz="0" hx="0" hy="-2" hz="0"></cp>
+    <cp type="R_STUD" bx="10" by="-4" bz="10" hx="10" hy="-2" hz="10"></cp>
+    <cp type="R_STUD" bx="-10" by="-4" bz="10" hx="-10" hy="-2" hz="10"></cp>
+    <cp type="R_STUD" bx="10" by="-4" bz="-10" hx="10" hy="-2" hz="-10"></cp>
+    <cp type="R_STUD" bx="-10" by="-4" bz="-10" hx="-10" hy="-2" hz="-10"></cp>
+    <cp type="PEGHOLE" bx="0" by="-4" bz="0" hx="0" hy="4" hz="0"></cp>
+    <cp type="PEGHOLE" bx="0" by="4" bz="0" hx="0" hy="-4" hz="0"></cp>
+    <!-- can receive a STUD in center hole -->
+    <cp type="R_STUD" bx="0" by="4" bz="0" hx="0" hy="-4" hz="0"></cp>
+    <!-- can receive an axle -->
+    <cp type="R_AXLE" bx="0" by="4" bz="0" hx="0" hy="-4" hz="0"></cp>
+  </primitive>
+  <primitive checkdup="1">
+    <name p="stud3.dat"/>
+    <name p="stud3a.dat"/>
+    <cp type="R_STUDJ" bx="0" by="-4" bz="0" hx="0" hy="-2" hz="0"></cp>
+    <cp type="R_STUD" bx="10" by="-4" bz="0" hx="10" hy="-2" hz="0"></cp>
+    <cp type="R_STUD" bx="-10" by="-4" bz="0" hx="-10" hy="-2" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="axlehole.dat"/>
+    <name p="axlehol4.dat"/>
+    <name p="axlehol5.dat"/>
+    <name p="axlehol8.dat"/>
+    <name p="axl2hole.dat"/>
+    <name p="axl2hol8.dat"/>
+    <name p="axl3hole.dat"/>
+    <name p="axl3hol8.dat"/>
+    <cp type="R_AXLE" bx="0" by="0" bz="0" hx="0" hy="1" hz="0"></cp>
+    <!-- axlehole can connect to bar -->
+    <cp type="CLIP" bx="0" by="0" bz="0" hx="0" hy="1" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="axle.dat"/>
+    <cp type="AXLE" bx="0" by="0" bz="0" hx="0" hy="1" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="peghole.dat"/>
+    <cp type="PEGHOLE" bx="0" by="0" bz="0" hx="0" hy="10" hz="0"></cp>
+    <!-- can connect to stud -->
+    <cp type="R_STUD" bx="0" by="0" bz="0" hx="0" hy="10" hz="0"></cp>
+    <!-- can connect to axle -->
+    <cp type="R_AXLE" bx="0" by="0" bz="0" hx="0" hy="10" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <!-- Technic pin -->
+    <name p="connect.dat"/>
+    <name p="connect2.dat"/>
+    <name p="connect5.dat"/>
+    <name p="connect8.dat"/>
+    <name p="confric.dat"/>
+    <name p="confric2.dat"/>
+    <name p="confric5.dat"/>
+    <name p="confric6.dat"/>
+    <name p="confric8.dat"/>
+    <name p="confric9.dat"/>
+    <cp type="CLIP" bx="0" by="0" bz="0" hx="0" hy="-20" hz="0"></cp>
+    <cp type="PIN" bx="0" by="0" bz="0" hx="0" hy="-20" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <!-- Technic pin, no bar inside -->
+    <name p="connect6.dat"/>
+    <name p="connect7.dat"/>
+    <cp type="PIN" bx="0" by="0" bz="0" hx="0" hy="-20" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <!-- Technic pin 2 long, no bar inside -->
+    <name p="confric3.dat"/>
+    <cp type="PIN" bx="0" by="0" bz="0" hx="0" hy="-20" hz="0"></cp>
+    <cp type="PIN" bx="0" by="-20" bz="0" hx="0" hy="-40" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <!-- Technic 1/2 pin -->
+    <name p="connect3.dat"/>
+    <name p="connect4.dat"/>
+    <cp type="CLIP" bx="0" by="0" bz="0" hx="0" hy="-10" hz="0"></cp>
+    <cp type="PIN" bx="0" by="0" bz="0" hx="0" hy="-10" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="clip1.dat"/>
+    <name p="clip4.dat"/>
+    <name p="clip5.dat"/>
+    <name p="clip7.dat"/>
+    <cp type="CLIP" bx="0" by="-4" bz="0" hx="0" hy="4" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="clip2.dat"/>
+    <name p="clip9.dat"/>
+    <name p="clip10.dat"/>
+    <cp type="CLIP" bx="0" by="-4" bz="-10" hx="0" hy="4" hz="-10"></cp>
+  </primitive>
+  <primitive>
+    <name p="clip3.dat"/>
+    <name p="clip6.dat"/>
+    <cp type="CLIP" bx="4" by="2" bz="0" hx="-4" hy="2" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="clip8.dat"/>
+    <name p="clip11.dat"/>
+    <cp type="CLIP" bx="0" by="-6" bz="-4" hx="0" hy="-6" hz="4"></cp>
+  </primitive>
+  <primitive>
+    <name p="h1.dat" />
+    <cp type="HFINGER" bx="0" by="10" bz="-6" hx="0" hy="10" hz="6"></cp>
+    <cp type="HFINGER" bx="0" by="10" bz="6" hx="0" hy="10" hz="-6"></cp>
+  </primitive>
+  <primitive>
+    <name p="h2.dat"/>
+    <cp type="HSLOT" bx="0" by="10" bz="6" hx="0" hy="10" hz="-6"></cp>
+  </primitive>
+  <primitive>
+    <name p="clh1.dat"/>
+    <name p="clh3.dat"/>
+    <name p="clh6.dat"/>
+    <cp type="CLHFINGER" bx="-4" by="0" bz="-10" hx="4" hy="0" hz="-10"></cp>
+    <cp type="CLHFINGER" bx="4" by="0" bz="-10" hx="-4" hy="0" hz="-10"></cp>
+  </primitive>
+  <primitive>
+    <name p="clh8.dat"/>
+    <cp type="CLHFINGER" bx="-4" by="0" bz="-7" hx="4" hy="0" hz="-7"></cp>
+    <cp type="CLHFINGER" bx="4" by="0" bz="-7" hx="-4" hy="0" hz="-7"></cp>
+  </primitive>
+  <primitive>
+    <name p="clh2.dat"/>
+    <name p="clh9.dat"/>
+    <name p="clh12.dat"/>
+    <cp type="CLHFINGER" bx="-4" by="-7" bz="0" hx="4" hy="-7" hz="0"></cp>
+    <cp type="CLHFINGER" bx="4" by="-7" bz="0" hx="-4" hy="-7" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="clh4.dat"/>
+    <name p="clh10.dat"/>
+    <name p="clh11.dat"/>
+    <cp type="CLHFORK" bx="4" by="0" bz="4" hx="-4" hy="0" hz="4"></cp>
+  </primitive>
+  <primitive>
+    <name p="clh5.dat"/>
+    <cp type="CLHFORK" bx="4" by="0" bz="10" hx="-4" hy="0" hz="10"></cp>
+  </primitive>
+  <primitive>
+    <name p="wpin.dat"/>
+    <name p="wpin2.dat"/>
+    <name p="wpin2a.dat"/>
+    <name p="wpin4.dat"/>
+    <cp type="WHEELPIN" bx="0" by="0" bz="0" hx="0" hy="-12" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="wpinhole.dat"/>
+    <name p="wpinhol2.dat"/>
+    <cp type="R_WHEELPIN" bx="0" by="-1" bz="0" hx="0" hy="0" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="stud16.dat"/>
+    <cp type="R_STUD" bx="0" by="-4" bz="0" hx="0" hy="0" hz="0"></cp>
+  </primitive>
+  <primitive>
+    <name p="handle.dat"/>
+    <name p="handle2.dat"/>
+    <cp type="BAR" bx="7" by="0" bz="4" hx="-7" hy="0" hz="4"></cp>
+    <cp type="CLIP" bx="0" by="-4" bz="0" hx="0" hy="4" hz="0"></cp>
+  </primitive>
+
+</autodetect>

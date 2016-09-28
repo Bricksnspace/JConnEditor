@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 98136.dat
+Description: Animal Cobra Threatening
+Date: 02/03/15 16.46-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-2.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-14.25" z="70.0"></base>
+<dir x="0.0" y="-14.25" z="48.75"></dir>
+</cpoint>
+</connections>
+

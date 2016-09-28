@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 87752.dat
+Description: Windscreen  6 x  4 x  2 Bubble Canopy with Handle (Needs Work)
+Date: 14/01/15 15.32-->
+<connections>
+<cpoint type="BAR">
+<base x="16.0" y="0.0" z="0.0"></base>
+<dir x="-16.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

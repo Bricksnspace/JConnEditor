@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6086.dat
+Description: Animal Octopus
+Date: 22/06/15 14.50-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="48.0" z="0.0"></base>
+<dir x="0.0" y="46.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="48.0" z="10.0"></base>
+<dir x="10.0" y="46.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="48.0" z="10.0"></base>
+<dir x="-10.0" y="46.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="48.0" z="-10.0"></base>
+<dir x="10.0" y="46.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="48.0" z="-10.0"></base>
+<dir x="-10.0" y="46.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="15.5" y="12.25" z="-12.5"></base>
+<dir x="19.0" y="12.25" z="-12.5"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="9.25" y="12.25" z="-12.5"></base>
+<dir x="19.0" y="12.25" z="-12.5"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-15.5" y="12.25" z="-12.5"></base>
+<dir x="-19.0" y="12.25" z="-12.5"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-9.25" y="12.25" z="-12.5"></base>
+<dir x="-19.0" y="12.25" z="-12.5"></dir>
+</cpoint>
+</connections>
+

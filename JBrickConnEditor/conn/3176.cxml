@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3176.dat
+Description: Plate  3 x  2 with Hole
+Date: 14/04/15 14.33-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="10.0"></base>
+<dir x="10.0" y="6.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="10.0"></base>
+<dir x="-10.0" y="6.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="-10.0"></base>
+<dir x="10.0" y="6.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="-10.0"></base>
+<dir x="-10.0" y="6.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="-2.0" z="-30.0"></base>
+<dir x="0.0" y="8.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="10.0" z="-30.0"></base>
+<dir x="0.0" y="0.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="-30.0"></base>
+<dir x="0.0" y="8.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="10.0"></base>
+<dir x="-10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="-10.0"></base>
+<dir x="-10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="10.0"></base>
+<dir x="10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-10.0"></base>
+<dir x="10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+</connections>
+

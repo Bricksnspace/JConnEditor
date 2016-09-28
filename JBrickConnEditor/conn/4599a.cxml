@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4599a.dat
+Description: Tap  1 x  1 with Hole in Spout
+Date: 24/11/14 16.35-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="24.0" z="0.0"></base>
+<dir x="0.0" y="22.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="-10.0"></base>
+<dir x="10.0" y="22.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="-10.0"></base>
+<dir x="-10.0" y="22.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="10.0"></base>
+<dir x="10.0" y="22.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="10.0"></base>
+<dir x="-10.0" y="22.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="4.0" z="20.0"></base>
+<dir x="0.0" y="4.0" z="6.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="16.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

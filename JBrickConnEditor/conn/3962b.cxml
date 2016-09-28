@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3962b.dat
+Description: Minifig Radio with Long Handle
+Date: 02/12/14 17.48-->
+<connections>
+<cpoint type="STUD">
+<base x="-15.0" y="10.0" z="-4.0"></base>
+<dir x="-15.0" y="10.0" z="-8.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-15.0" y="-10.0" z="-4.0"></base>
+<dir x="-15.0" y="-10.0" z="-8.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-15.0" y="10.0" z="-4.0"></base>
+<dir x="-15.0" y="10.0" z="-8.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-15.0" y="-10.0" z="-4.0"></base>
+<dir x="-15.0" y="-10.0" z="-8.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="7.0" z="0.0"></base>
+<dir x="0.0" y="-7.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-15.0" y="10.0" z="-8.0"></base>
+<dir x="-15.0" y="10.0" z="-4.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-15.0" y="-10.0" z="-8.0"></base>
+<dir x="-15.0" y="-10.0" z="-4.0"></dir>
+</cpoint>
+</connections>
+

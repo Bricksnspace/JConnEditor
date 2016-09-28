@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 33286.dat
+Description: Brick  1 x  1 x   2/3 Round with Scala Base
+Date: 24/02/15 20.30-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="16.0" z="0.0"></base>
+<dir x="0.0" y="12.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="16.0" z="10.0"></base>
+<dir x="-10.0" y="12.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="16.0" z="10.0"></base>
+<dir x="10.0" y="12.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="16.0" z="-10.0"></base>
+<dir x="-10.0" y="12.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="16.0" z="-10.0"></base>
+<dir x="10.0" y="12.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="0.0"></base>
+<dir x="0.0" y="12.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

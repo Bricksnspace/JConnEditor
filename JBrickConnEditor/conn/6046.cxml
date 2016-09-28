@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6046.dat
+Description: Bar  9 x 13
+Date: 17/12/14 11.13-->
+<connections>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="80.0"></base>
+<dir x="120.0" y="0.0" z="80.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="60.0"></base>
+<dir x="120.0" y="0.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="40.0"></base>
+<dir x="120.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="20.0"></base>
+<dir x="120.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="0.0"></base>
+<dir x="120.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="-20.0"></base>
+<dir x="120.0" y="0.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="-40.0"></base>
+<dir x="120.0" y="0.0" z="-40.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="-60.0"></base>
+<dir x="120.0" y="0.0" z="-60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="-80.0"></base>
+<dir x="120.0" y="0.0" z="-80.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-120.0" y="0.0" z="80.0"></base>
+<dir x="-120.0" y="0.0" z="-80.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-40.0" y="0.0" z="80.0"></base>
+<dir x="-40.0" y="0.0" z="-80.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="40.0" y="0.0" z="80.0"></base>
+<dir x="40.0" y="0.0" z="-80.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="120.0" y="0.0" z="80.0"></base>
+<dir x="120.0" y="0.0" z="-80.0"></dir>
+</cpoint>
+</connections>
+

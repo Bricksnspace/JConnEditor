@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3816s02.dat
+Description: ~Minifig Leg Right without Front and Side Surfaces
+Date: 01/12/14 15.43-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-10.0" y="28.0" z="-1.0"></base>
+<dir x="-10.0" y="24.0" z="-1.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="18.0" z="9.0"></base>
+<dir x="-10.0" y="18.0" z="5.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="-2.0" z="9.0"></base>
+<dir x="-10.0" y="-2.0" z="5.0"></dir>
+</cpoint>
+<cpoint type="R_MFPIN">
+<base x="-2.0" y="0.0" z="0.0"></base>
+<dir x="-8.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

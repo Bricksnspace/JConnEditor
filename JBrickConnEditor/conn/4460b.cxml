@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4460a.dat
+Description: Slope Brick 75  2 x  1 x  3 with Open Stud
+Date: 17/12/14 12.55-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="72.0" z="0.0"></base>
+<dir x="0.0" y="68.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="72.0" z="-10.0"></base>
+<dir x="0.0" y="68.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="72.0" z="-20.0"></base>
+<dir x="0.0" y="68.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6238b.dat
+Description: Windscreen  4 x  4 x  1 Type 2
+Date: 02/12/14 15.59-->
+<connections>
+<cpoint type="STUD">
+<base x="30.0" y="0.0" z="-10.0"></base>
+<dir x="30.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-10.0"></base>
+<dir x="10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="-10.0"></base>
+<dir x="-10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-30.0" y="0.0" z="-10.0"></base>
+<dir x="-30.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-30.0" y="24.0" z="-30.0"></base>
+<dir x="-30.0" y="20.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="-30.0"></base>
+<dir x="-10.0" y="20.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="-30.0"></base>
+<dir x="10.0" y="20.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="30.0" y="24.0" z="-30.0"></base>
+<dir x="30.0" y="20.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="30.0" y="0.0" z="-10.0"></base>
+<dir x="30.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="0.0" z="-10.0"></base>
+<dir x="10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="0.0" z="-10.0"></base>
+<dir x="-10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-30.0" y="0.0" z="-10.0"></base>
+<dir x="-30.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="30.0" y="-4.0" z="-10.0"></base>
+<dir x="30.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-4.0" z="-10.0"></base>
+<dir x="10.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-4.0" z="-10.0"></base>
+<dir x="-10.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-30.0" y="-4.0" z="-10.0"></base>
+<dir x="-30.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+</connections>
+

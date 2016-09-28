@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3820.dat
+Description: Minifig Hand
+Date: 24/10/14 14.25-->
+<connections>
+<cpoint type="CLIP">
+<base x="0.0" y="-7.0" z="-11.0"></base>
+<dir x="0.0" y="4.0" z="-9.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="-3.5" z="-11.0"></base>
+<dir x="0.0" y="-7.0" z="-11.5"></dir>
+</cpoint>
+<cpoint type="MFHAND">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="13.0"></dir>
+</cpoint>
+</connections>
+

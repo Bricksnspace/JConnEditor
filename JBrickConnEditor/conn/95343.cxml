@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 95343.dat
+Description: Bucket  1 x  1 x  1 Conical
+Date: 09/02/15 14.44-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="-13.0" y="-20.75" z="0.0"></base>
+<dir x="-14.75" y="-20.75" z="0.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="13.0" y="-20.75" z="0.0"></base>
+<dir x="14.75" y="-20.75" z="0.0"></dir>
+</cpoint>
+</connections>
+

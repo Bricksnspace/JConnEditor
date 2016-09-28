@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3819.dat
+Description: Minifig Arm Left
+Date: 28/11/14 17.56-->
+<connections>
+<cpoint type="R_MFHAND">
+<base x="5.0" y="19.0" z="-10.0"></base>
+<dir x="5.0" y="16.0" z="-7.0"></dir>
+</cpoint>
+<cpoint type="MFARM">
+<base x="-0.0" y="0.0" z="0.0"></base>
+<dir x="-7.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

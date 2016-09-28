@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2397.dat
+Description: Animal Horse Hitching
+Date: 18/06/15 17.08-->
+<connections>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="50.0"></base>
+<dir x="10.0" y="6.0" z="50.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="50.0"></base>
+<dir x="-10.0" y="6.0" z="50.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="24.0" z="-60.0"></base>
+<dir x="0.0" y="22.0" z="-60.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="-50.0"></base>
+<dir x="10.0" y="22.0" z="-50.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="-50.0"></base>
+<dir x="-10.0" y="22.0" z="-50.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="-70.0"></base>
+<dir x="10.0" y="22.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="-70.0"></base>
+<dir x="-10.0" y="22.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="50.0"></base>
+<dir x="10.0" y="-4.0" z="50.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="50.0"></base>
+<dir x="-10.0" y="-4.0" z="50.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="16.0" z="-50.0"></base>
+<dir x="10.0" y="12.0" z="-50.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="16.0" z="-50.0"></base>
+<dir x="-10.0" y="12.0" z="-50.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="16.0" z="-70.0"></base>
+<dir x="10.0" y="12.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="16.0" z="-70.0"></base>
+<dir x="-10.0" y="12.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-26.0" y="4.0" z="40.0"></base>
+<dir x="-26.0" y="4.0" z="80.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="4.0" z="40.0"></base>
+<dir x="26.0" y="4.0" z="80.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-26.0" y="20.0" z="-40.0"></base>
+<dir x="-26.0" y="20.0" z="-60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="20.0" z="-40.0"></base>
+<dir x="26.0" y="20.0" z="-60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="26.0" y="20.0" z="-40.0"></base>
+<dir x="26.0" y="4.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-26.0" y="4.0" z="40.0"></base>
+<dir x="-26.0" y="20.0" z="-40.0"></dir>
+</cpoint>
+<cpoint type="R_STUDJ">
+<base x="0.0" y="8.0" z="50.0"></base>
+<dir x="0.0" y="6.0" z="50.0"></dir>
+</cpoint>
+</connections>
+

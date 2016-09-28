@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6029a.dat
+Description: Animal Cattlehorns
+Date: 30/03/15 14.11-->
+<connections>
+<cpoint type="BAR">
+<base x="-7.0" y="0.0" z="0.0"></base>
+<dir x="7.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

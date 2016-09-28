@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4219b.dat
+Description: Roller Door with Handle
+Date: 17/12/14 10.01-->
+<connections>
+<cpoint type="ROLLERPIN">
+<base x="-75.0" y="0.0" z="0.0"></base>
+<dir x="-69.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="ROLLERPIN">
+<base x="75.0" y="0.0" z="0.0"></base>
+<dir x="69.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="ROLLERHINGE">
+<base x="-80.0" y="4.0" z="0.0"></base>
+<dir x="-80.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="ROLLERHINGE">
+<base x="80.0" y="4.0" z="0.0"></base>
+<dir x="80.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

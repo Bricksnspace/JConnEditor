@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 58176.dat
+Description: Cylinder Domed  1 x  1 x  1.667 with Bar
+Date: 11/12/14 16.53-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-8.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

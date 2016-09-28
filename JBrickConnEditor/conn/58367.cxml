@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 60849.dat
+Description: Minifig Hose Nozzle with Side String Hole Simplified
+Date: 07/02/15 19.12-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-12.0" z="10.0"></base>
+<dir x="0.0" y="-12.0" z="-30.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4701.dat
+Description: ~Technic Pneumatic Cylinder 2 x 2 Base Type 1
+Date: 23/03/15 16.31-->
+<connections>
+<cpoint type="R_STUD">
+<base x="20.0" y="14.0" z="0.0"></base>
+<dir x="10.0" y="14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-20.0" y="14.0" z="0.0"></base>
+<dir x="-10.0" y="14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-11.0" y="28.0" z="11.0"></base>
+<dir x="-11.0" y="26.0" z="11.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-11.0" y="28.0" z="-11.0"></base>
+<dir x="-11.0" y="26.0" z="-11.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="11.0" y="28.0" z="11.0"></base>
+<dir x="11.0" y="26.0" z="11.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="11.0" y="28.0" z="-11.0"></base>
+<dir x="11.0" y="26.0" z="-11.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="20.0" y="14.0" z="0.0"></base>
+<dir x="10.0" y="14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-20.0" y="14.0" z="0.0"></base>
+<dir x="-10.0" y="14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="20.0" y="14.0" z="0.0"></base>
+<dir x="10.0" y="14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-20.0" y="14.0" z="0.0"></base>
+<dir x="-10.0" y="14.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="0.0" y="14.0" z="-36.0"></base>
+<dir x="0.0" y="14.0" z="-26.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4536.dat
+Description: Container Cupboard  2 x  3 x  2 Drawer
+Date: 19/12/14 16.08-->
+<connections>
+<cpoint type="ROLLERHINGE">
+<base x="26.0" y="18.0" z="16.0"></base>
+<dir x="26.0" y="18.0" z="4.0"></dir>
+</cpoint>
+<cpoint type="ROLLERHINGE">
+<base x="-26.0" y="18.0" z="16.0"></base>
+<dir x="-26.0" y="18.0" z="4.0"></dir>
+</cpoint>
+</connections>
+

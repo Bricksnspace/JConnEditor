@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 99784.dat
+Description: Bar 12L with Plate  1 x  2 with Hollow Studs and Hollow Stud
+Date: 25/11/14 11.51-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="-110.0"></base>
+<dir x="0.0" y="-4.0" z="-110.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="-90.0"></base>
+<dir x="0.0" y="-4.0" z="-90.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="90.0"></base>
+<dir x="0.0" y="-4.0" z="90.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="-110.0"></base>
+<dir x="0.0" y="6.0" z="-110.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="-90.0"></base>
+<dir x="0.0" y="6.0" z="-90.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="90.0"></base>
+<dir x="0.0" y="4.0" z="90.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="-110.0"></base>
+<dir x="0.0" y="-4.0" z="-110.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="-90.0"></base>
+<dir x="0.0" y="-4.0" z="-90.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="90.0"></base>
+<dir x="0.0" y="-4.0" z="90.0"></dir>
+</cpoint>
+<cpoint type="R_STUDJ">
+<base x="0.0" y="8.0" z="-100.0"></base>
+<dir x="0.0" y="6.0" z="-100.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="-110.0"></base>
+<dir x="0.0" y="0.0" z="-110.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="-90.0"></base>
+<dir x="0.0" y="0.0" z="-90.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="90.0"></base>
+<dir x="0.0" y="0.0" z="90.0"></dir>
+</cpoint>
+</connections>
+

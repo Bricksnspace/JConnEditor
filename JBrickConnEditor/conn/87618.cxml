@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 87618.dat
+Description: Bar  4.5L with Handle
+Date: 17/06/15 14.55-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-9.0" z="0.0"></base>
+<dir x="0.0" y="-98.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

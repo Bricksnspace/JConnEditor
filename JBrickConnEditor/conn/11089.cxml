@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 11089.dat
+Description: Claw Flexible  4L with Bar  0.5L
+Date: 25/02/15 14.18-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="10.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

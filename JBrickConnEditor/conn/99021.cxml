@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 99021.dat
+Description: Technic Pneumatic Hose Connector with Bush
+Date: 23/03/15 15.37-->
+<connections>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="-20.0" y="-20.0" z="0.0"></base>
+<dir x="-10.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="20.0" y="-20.0" z="0.0"></base>
+<dir x="10.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-4.0" y="-20.0" z="0.0"></base>
+<dir x="-20.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="4.0" y="-20.0" z="0.0"></base>
+<dir x="20.0" y="-20.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

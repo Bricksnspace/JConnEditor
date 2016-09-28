@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2900.dat
+Description: Technic Flex-System Pin Hole Connector
+Date: 23/03/15 15.32-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="-5.0" z="0.0"></base>
+<dir x="0.0" y="5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="5.0" z="0.0"></base>
+<dir x="0.0" y="-5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="-5.0" z="0.0"></base>
+<dir x="0.0" y="5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="5.0" z="0.0"></base>
+<dir x="0.0" y="-5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FLEX_CONN">
+<base x="13.0" y="0.0" z="0.0"></base>
+<dir x="28.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="-5.0" z="0.0"></base>
+<dir x="0.0" y="5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="5.0" z="0.0"></base>
+<dir x="0.0" y="-5.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

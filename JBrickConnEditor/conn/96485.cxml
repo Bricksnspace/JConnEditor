@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 96485.dat
+Description: Figure Friends Hair Decoration, Heart with Pin
+Date: 10/02/15 13.33-->
+<connections>
+<cpoint type="DECPIN">
+<base x="0.0" y="5.5" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

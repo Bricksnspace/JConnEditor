@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4533.dat
+Description: Container Cupboard  2 x  3 x  2 Door
+Date: 19/12/14 16.06-->
+<connections>
+<cpoint type="GLASS">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-2.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="0.0" y="36.0" z="0.0"></base>
+<dir x="0.0" y="40.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2547a.dat
+Description: Animal Shark Body Type 1
+Date: 18/06/15 17.33-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="-2.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="-2.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="18.800001" y="-26.4" z="-19.1"></base>
+<dir x="18.300001" y="-26.4" z="-19.1"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="-18.7" y="-26.4" z="-19.1"></base>
+<dir x="-18.300001" y="-26.4" z="-19.1"></dir>
+</cpoint>
+<cpoint type="R_STUDJ">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-2.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

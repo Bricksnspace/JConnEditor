@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6028.dat
+Description: Animal Dragon Tail
+Date: 18/02/15 16.33-->
+<connections>
+<cpoint type="GLASS">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-1.5" z="0.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="0.0" y="22.0" z="0.0"></base>
+<dir x="0.0" y="24.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

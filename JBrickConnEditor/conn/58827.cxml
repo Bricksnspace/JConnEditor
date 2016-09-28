@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 58827.dat
+Description: Support  2 x  2 x 10 Girder Triangular with Axlehole
+Date: 02/12/14 10.11-->
+<connections>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="10.0"></base>
+<dir x="10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-10.0"></base>
+<dir x="10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="-10.0"></base>
+<dir x="-10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="10.0"></base>
+<dir x="-10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="240.0" z="0.0"></base>
+<dir x="0.0" y="235.5" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="240.0" z="-10.0"></base>
+<dir x="10.0" y="235.5" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="240.0" z="-10.0"></base>
+<dir x="-10.0" y="235.5" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="240.0" z="10.0"></base>
+<dir x="10.0" y="235.5" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="240.0" z="10.0"></base>
+<dir x="-10.0" y="235.5" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="0.0" z="10.0"></base>
+<dir x="10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="0.0" z="-10.0"></base>
+<dir x="10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="0.0" z="-10.0"></base>
+<dir x="-10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="0.0" z="10.0"></base>
+<dir x="-10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="24.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="216.0" z="0.0"></base>
+<dir x="0.0" y="231.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="24.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="216.0" z="0.0"></base>
+<dir x="0.0" y="231.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-4.0" z="10.0"></base>
+<dir x="10.0" y="0.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-4.0" z="-10.0"></base>
+<dir x="10.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-4.0" z="-10.0"></base>
+<dir x="-10.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-4.0" z="10.0"></base>
+<dir x="-10.0" y="0.0" z="10.0"></dir>
+</cpoint>
+</connections>
+

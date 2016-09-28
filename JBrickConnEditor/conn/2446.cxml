@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: s\2446s01.dat
+Description: ~Minifig Helmet Modern Structure
+Date: 24/12/14 21.05-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-2.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="14.5" y="6.5" z="0.0"></base>
+<dir x="10.5" y="6.5" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="-14.5" y="6.5" z="0.0"></base>
+<dir x="-10.5" y="6.5" z="0.0"></dir>
+</cpoint>
+</connections>
+

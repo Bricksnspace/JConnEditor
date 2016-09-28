@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3957b.dat
+Description: Antenna  4H with Flat Top
+Date: 21/12/14 19.59-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="5.5" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="10.0"></base>
+<dir x="10.0" y="5.5" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="10.0"></base>
+<dir x="-10.0" y="5.5" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="-10.0"></base>
+<dir x="10.0" y="5.5" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="-10.0"></base>
+<dir x="-10.0" y="5.5" z="-10.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-4.0" z="0.0"></base>
+<dir x="0.0" y="-88.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 10355.dat
+Description: ~Animal Horse Poseable Rear Right Leg
+Date: 22/06/15 14.14-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-10.0" y="70.5" z="-27.0"></base>
+<dir x="-10.0" y="68.5" z="-27.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 32199.dat
+Description: Technic Axle Flexible 11
+Date: 24/03/15 18.10-->
+<connections>
+<cpoint type="BAR">
+<base x="-110.0" y="0.0" z="0.0"></base>
+<dir x="-90.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="110.0" y="0.0" z="0.0"></base>
+<dir x="90.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

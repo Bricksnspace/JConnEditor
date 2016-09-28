@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 92241.dat
+Description: Figure Friends Girl Torso without Pattern
+Date: 10/02/15 13.38-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="-7.0" z="0.0"></base>
+<dir x="0.0" y="-18.5" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_ARMHOLE">
+<base x="-11.0" y="0.0" z="0.0"></base>
+<dir x="-4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_ARMHOLE">
+<base x="11.0" y="0.0" z="0.0"></base>
+<dir x="4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_ARMHOLE">
+<base x="11.0" y="0.0" z="0.0"></base>
+<dir x="4.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="FR_TORSO">
+<base x="0.0" y="18.0" z="-1.0"></base>
+<dir x="0.0" y="14.0" z="-1.0"></dir>
+</cpoint>
+</connections>
+

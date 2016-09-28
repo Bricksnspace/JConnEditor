@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2736.dat
+Description: Technic Axle Towball
+Date: 02/12/14 15.48-->
+<connections>
+<cpoint type="AXLE">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="17.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BALL">
+<base x="-12.0" y="0.0" z="0.0"></base>
+<dir x="-12.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 30154.dat
+Description: Minifig Sextant
+Date: 09/02/15 14.34-->
+<connections>
+<cpoint type="STUD">
+<base x="16.0" y="0.0" z="0.0"></base>
+<dir x="22.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="42.0" z="0.0"></base>
+<dir x="0.0" y="28.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-16.0" y="0.0" z="0.0"></base>
+<dir x="-8.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="2.0" z="8.0"></base>
+<dir x="0.0" y="2.0" z="4.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="22.0" y="0.0" z="0.0"></base>
+<dir x="16.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

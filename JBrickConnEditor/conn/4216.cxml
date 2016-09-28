@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4216.dat
+Description: Brick  1 x  2 with Groove
+Date: 17/12/14 15.58-->
+<connections>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="24.0" z="0.0"></base>
+<dir x="-10.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="0.0"></base>
+<dir x="10.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="ROLLERRAIL">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="24.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="24.0" z="-10.0"></dir>
+</cpoint>
+</connections>
+

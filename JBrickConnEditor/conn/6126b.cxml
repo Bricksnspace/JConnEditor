@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6126a.dat
+Description: Minifig Flame with Pegs
+Date: 15/12/14 16.14-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="-8.0"></base>
+<dir x="0.0" y="0.0" z="-2.0"></dir>
+</cpoint>
+</connections>
+

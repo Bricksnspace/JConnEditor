@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6016.dat
+Description: Bar  1 x  4 x  3 Window
+Date: 19/12/14 10.55-->
+<connections>
+<cpoint type="BAR">
+<base x="-30.0" y="26.0" z="0.0"></base>
+<dir x="30.0" y="26.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-30.0" y="-26.0" z="0.0"></base>
+<dir x="30.0" y="-26.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-30.0" y="26.0" z="0.0"></base>
+<dir x="-30.0" y="-26.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-10.0" y="-26.0" z="0.0"></base>
+<dir x="-10.0" y="26.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="10.0" y="-26.0" z="0.0"></base>
+<dir x="10.0" y="26.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="30.0" y="-26.0" z="0.0"></base>
+<dir x="30.0" y="26.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

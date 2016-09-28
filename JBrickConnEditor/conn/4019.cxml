@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4019.dat
+Description: Technic Gear 16 Tooth
+Date: 19/01/15 14.07-->
+<connections>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="jldraw/LDPlacedPart.java|jldraw/LDrawModel.java|jldraw/PickMode.java|jldraw/ProgressUpdater.java|jldraw/PartSelectionListener.java|jldraw/LDRenderedModel.java|jldraw/LDRenderedPart.java|jldraw/LDrawGLDisplay.java|jldraw/ImportLDrawProjectTask.java|jbrickconnedit/MyPreferences.java|jbrickconnedit/AppGlobalSettings.java|jbrickconnedit/OptionsDialog.java" kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/LDrawLib"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/LDraw3D"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/LDrawDB"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/LDEditor"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/AppSettings"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

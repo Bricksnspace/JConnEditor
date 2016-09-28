@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Flexible/bendable parts definition file
+Date: 24 mar 2015 
+Mario Pascucci
+-->
+<flexparts>
+<auxparts>
+
+<auxp name="__hoseend.dat">
+0 ~JBB Flex Hose ribbed head without tabs
+0 Name: __hoseend.dat
+0 Author: Mario Pascucci
+0 !LDRAW_ORG Unofficial_Part
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 752.dat
+1 16 0 0 0 1 0 0 0 -1 0 0 0 1 755.dat
+
+</auxp>
+
+<auxp name="__tabhoseend.dat">
+0 ~JBB Flex Hose ribbed head with tabs
+0 Name: __tabhoseend.dat
+0 Author: Mario Pascucci
+0 !LDRAW_ORG Unofficial_Part
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 750.dat
+1 16 0 0 0 1 0 0 0 -1 0 0 0 1 755.dat
+
+</auxp>
+
+<auxp name="__faxlehead.dat">
+0 ~JBB Flex axle head
+0 Name: __faxlehead.dat
+0 Author: Mario Pascucci
+0 !LDRAW_ORG Unofficial_Part
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 BFC CERTIFY CCW
+
+0 // Based on work of Willy Tschager, Steve Bliss and Chris Dee 
+
+0 Tip (a 8ldu wide bar)
+1 16 0 40 0 4 0 0 0 -20 0 0 0 4 4-4cylc.dat
+
+0 Mixed Cylinder + Cross-axle end section
+1 16 0 16 0 0 1 0 1 0 0 0 0 -1 s\faxle1.dat
+1 16 0 12 0 0 1 0 1 0 0 0 0 -1 s\faxle2.dat
+1 16 0 8 0 0 1 0 1 0 0 0 0 -1 s\faxle3.dat
+1 16 0 4 0 0 1 0 1 0 0 0 0 -1 s\faxle4.dat
+1 16 0 0 0 0 1 0 1 0 0 0 0 -1 s\faxle5.dat
+</auxp>
+
+<auxp name="__faxlemid.dat">
+0 ~Flex Axle mid section
+0 Name: __faxlemid.dat
+0 Author: Steve Bliss [sbliss]
+0 !LDRAW_ORG Unofficial_Part
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 // Mario Pascucci note:
+0 // Derived from axlehol8.dat official primitive
+0 // LSynth LS41.dat includes some unwanted quads and lines
+0 // so official primitive is preferable
+0 // it is needed renaming to avoid connection autodetect interferences
+
+0 BFC CERTIFY CCW
+
+0 !HISTORY 2000-05-07 [PTadmin] Official Update 2000-01
+0 !HISTORY 2002-11-08 [OrionP] Adjusted fit and precision
+0 !HISTORY 2003-03-12 [PTadmin] Official Update 2003-01
+0 !HISTORY 2007-06-24 [PTadmin] Header formatted for Contributor Agreement
+0 !HISTORY 2008-07-01 [PTadmin] Official Update 2008-01
+
+2 24 -5.602 0 2 -5.602 1 2
+2 24 -2 0 2 -2 1 2
+2 24 -2 0 5.602 -2 1 5.602
+2 24 5.602 0 2 5.602 1 2
+2 24 2 0 2 2 1 2
+2 24 2 0 5.602 2 1 5.602
+2 24 -5.602 0 -2 -5.602 1 -2
+2 24 -2 0 -2 -2 1 -2
+2 24 -2 0 -5.602 -2 1 -5.602
+2 24 5.602 0 -2 5.602 1 -2
+2 24 2 0 -2 2 1 -2
+2 24 2 0 -5.602 2 1 -5.602
+5 24 6 0 0 6 1 0 5.602 0 2 5.602 0 -2
+5 24 0 0 -6 0 1 -6 2 0 -5.602 -2 0 -5.602
+5 24 -6 0 0 -6 1 0 -5.602 0 -2 -5.602 0 2
+5 24 0 0 6 0 1 6 -2 0 5.602 2 0 5.602
+
+4 16 -6 0 0 -5.602 0 2 -5.602 1 2 -6 1 0
+4 16 -5.602 0 2 -2 0 2 -2 1 2 -5.602 1 2
+4 16 -2 0 2 -2 0 5.602 -2 1 5.602 -2 1 2
+4 16 -2 0 5.602 0 0 6 0 1 6 -2 1 5.602
+4 16 6 0 0 6 1 0 5.602 1 2 5.602 0 2
+4 16 5.602 0 2 5.602 1 2 2 1 2 2 0 2
+4 16 2 0 2 2 1 2 2 1 5.602 2 0 5.602
+4 16 2 0 5.602 2 1 5.602 0 1 6 0 0 6
+4 16 -6 0 0 -6 1 0 -5.602 1 -2 -5.602 0 -2
+4 16 -5.602 0 -2 -5.602 1 -2 -2 1 -2 -2 0 -2
+4 16 -2 0 -2 -2 1 -2 -2 1 -5.602 -2 0 -5.602
+4 16 -2 0 -5.602 -2 1 -5.602 0 1 -6 0 0 -6
+4 16 6 0 0 5.602 0 -2 5.602 1 -2 6 1 0
+4 16 5.602 0 -2 2 0 -2 2 1 -2 5.602 1 -2
+4 16 2 0 -2 2 0 -5.602 2 1 -5.602 2 1 -2
+4 16 2 0 -5.602 0 0 -6 0 1 -6 2 1 -5.602
+0
+</auxp>
+
+<!-- taken without changes from LSynth LS60.dat subpart -->
+<auxp name="__stringseg.dat">
+0 ~LSynth Short Straight String Segment
+0 Name: __stringseg.dat
+0 Author: Larry Pieniazek
+0 !LDRAW_ORG Unofficial_Part
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 BFC CERTIFY CW
+
+0 !HISTORY 2006-11-25 [kclague] Place holder part, can be replaced as needed
+0 !HISTORY 2007-02-25 [Holly-Wood] Renamed, BFCed, set black to main color
+
+3 16 0.5 0.866 1 1 0 1 0 0 1
+3 16 0.866 0.5 -1 0.866 -0.5 -1 1 0 1
+3 8 0.866026 0.5 -1 1 0 1 0.5 0.866026 1
+3 16 0 0 -1 0.866 -0.5 -1 0.866 0.5 -1
+3 16 -0.5 0.866 1 0.5 0.866 1 0 0 1
+3 16 0 1 -1 0.866 0.5 -1 0.5 0.866 1
+3 8 0 1 -1 0.5 0.866026 1 -0.5 0.866026 1
+3 16 0 0 -1 0.866 0.5 -1 0 1 -1
+3 16 -1 0 1 -0.5 0.866 1 0 0 1
+3 16 -0.866 0.5 -1 0 1 -1 -0.5 0.866 1
+3 8 -0.866026 0.5 -1 -0.5 0.866026 1 -1 0 1
+3 16 0 0 -1 0 1 -1 -0.866 0.5 -1
+3 16 -0.5 -0.866 1 -1 0 1 0 0 1
+3 16 -0.866 -0.5 -1 -0.866 0.5 -1 -1 0 1
+3 8 -0.866026 -0.5 -1 -1 0 1 -0.5 -0.866026 1
+3 16 0 0 -1 -0.866 0.5 -1 -0.866 -0.5 -1
+3 16 0.5 -0.866 1 -0.5 -0.866 1 0 0 1
+3 16 0 -1 -1 -0.866 -0.5 -1 -0.5 -0.866 1
+3 8 0 -1 -1 -0.5 -0.866026 1 0.5 -0.866026 1
+3 16 0 0 -1 -0.866 -0.5 -1 0 -1 -1
+3 16 1 0 1 0.5 -0.866 1 0 0 1
+3 16 0.866 -0.5 -1 0 -1 -1 0.5 -0.866 1
+3 8 0.866026 -0.5 -1 0.5 -0.866026 1 1 0 1
+3 16 0 0 -1 0 -1 -1 0.866 -0.5 -1
+</auxp>
+
+</auxparts>
+<partlist>
+<!-- axle flex 7 -->
+<part name="32580.dat" type="cont" rigid="30" len="60">
+  <start name="__faxlehead.dat" b="0,0,0" h="0,-10,0" />
+  <mid name="__faxlemid.dat" b="0,0,0" h="0,1,0" overlap="0.25"/>
+  <end name="__faxlehead.dat"  b="0,0,0" h="0,-10,0" />
+</part>
+<!-- (alias) axle flex 7 -->
+<part name="55709.dat" type="cont" rigid="30" len="60">
+  <start name="__faxlehead.dat" b="0,0,0" h="0,-10,0" />
+  <mid name="__faxlemid.dat" b="0,0,0" h="0,1,0" overlap="0.25"/>
+  <end name="__faxlehead.dat"  b="0,0,0" h="0,-10,0" />
+</part>
+<!-- axle flex 11 -->
+<part name="32199.dat" type="cont" rigid="50" len="140">
+  <start name="__faxlehead.dat" b="0,0,0" h="0,-10,0" />
+  <mid name="__faxlemid.dat" b="0,0,0" h="0,1,0" overlap="0.25"/>
+  <end name="__faxlehead.dat"  b="0,0,0" h="0,-10,0" />
+</part>
+<!-- axle flex 12 -->
+<part name="32200.dat" type="cont" rigid="50" len="160">
+  <start name="__faxlehead.dat" b="0,0,0" h="0,-10,0" />
+  <mid name="__faxlemid.dat" b="0,0,0" h="0,1,0" overlap="0.25"/>
+  <end name="__faxlehead.dat"  b="0,0,0" h="0,-10,0" />
+</part>
+<!-- axle flex 14 -->
+<part name="32201.dat" type="cont" rigid="50" len="200">
+  <start name="__faxlehead.dat" b="0,0,0" h="0,-10,0" />
+  <mid name="__faxlemid.dat" b="0,0,0" h="0,1,0" overlap="0.25"/>
+  <end name="__faxlehead.dat"  b="0,0,0" h="0,-10,0" />
+</part>
+<!-- axle flex 16 -->
+<part name="32202.dat" type="cont" rigid="50" len="240">
+  <start name="__faxlehead.dat" b="0,0,0" h="0,-10,0" />
+  <mid name="__faxlemid.dat" b="0,0,0" h="0,1,0" overlap="0.25"/>
+  <end name="__faxlehead.dat"  b="0,0,0" h="0,-10,0" />
+</part>
+<!-- axle flex 19 -->
+<part name="32235.dat" type="cont" rigid="50" len="300">
+  <start name="__faxlehead.dat" b="0,0,0" h="0,-10,0" />
+  <mid name="__faxlemid.dat" b="0,0,0" h="0,1,0" overlap="0.25"/>
+  <end name="__faxlehead.dat"  b="0,0,0" h="0,-10,0" />
+</part>
+
+<!-- string 11L with end studs -->
+<part name="76384.dat" type="segm" rigid="30" len="200">
+  <start name="572a.dat" b="7,4,0" h="9,4,0" />
+  <mid name="__stringseg.dat" b="0,0,1" h="0,0,-1" overlap="0.5" />
+  <end name="572a.dat" b="7,4,0" h="9,4,0" />
+</part>
+<!-- string 21L with end studs -->
+<part name="75924.dat" type="segm" rigid="50" len="400">
+  <start name="572a.dat" b="7,4,0" h="9,4,0"  />
+  <mid name="__stringseg.dat" b="0,0,1" h="0,0,-1" overlap="0.5" />
+  <end name="572a.dat" b="7,4,0" h="9,4,0"  />
+</part>
+<!-- string 41L with end studs -->
+<part name="572c02.dat" type="segm" rigid="30" len="800">
+  <start name="572a.dat" b="7,4,0" h="9,4,0"  />
+  <mid name="__stringseg.dat" b="0,0,1" h="0,0,-1" overlap="0.5" />
+  <end name="572a.dat" b="7,4,0" h="9,4,0"  />
+</part>
+
+<!-- ribbed hose 7mm -->
+<part name="79.dat" type="segm" rigid="80" len="0">
+  <start name="79.dat" b="0,-3.25,0" h="0,-10,0" />
+  <mid name="80.dat" b="0,-3.25,0" h="0,3.25,0" overlap="1" />
+  <end name="79.dat" b="0,-3.25,0" h="0,-10,0" />
+</part>
+
+<!-- ribbed hose 8.5L -->
+<part name="73590a.dat" type="segm" rigid="30" len="130" >
+  <start name="__hoseend.dat" b="0,-5,0" h="0,-15,0" />
+  <mid name="756.dat" b="0,3,0" h="0,-5,0" overlap="5.5" />
+  <end name="__hoseend.dat" b="0,-5,0" h="0,-15,0" />
+</part>
+
+<!-- ribbed hose 8.5L with tabbed ends -->
+<part name="73590b.dat" type="segm" rigid="30" len="130" >
+  <start name="__tabhoseend.dat" b="0,-5,0" h="0,-15,0" />
+  <mid name="756.dat" b="0,3,0" h="0,-5,0" overlap="5.5" />
+  <end name="__tabhoseend.dat" b="0,-5,0" h="0,-15,0" />
+</part>
+
+<!-- rigid hose, user length -->
+<part name="u9053.dat" type="cont" rigid="25" len="0">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+
+<!-- rigid hose 3mm 3L -->
+<part name="76263.dat" type="cont" rigid="25" len="60">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 4L -->
+<part name="76250.dat" type="cont" rigid="25" len="80">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 5L -->
+<part name="76307.dat" type="cont" rigid="30" len="100">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 6L -->
+<part name="76279.dat" type="cont" rigid="40" len="120">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 7L -->
+<part name="76289.dat" type="cont" rigid="45" len="140">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 8L -->
+<part name="76260.dat" type="cont" rigid="50" len="160">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 9L -->
+<part name="76324.dat" type="cont" rigid="60" len="180">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 10L -->
+<part name="76348.dat" type="cont" rigid="65" len="200">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 11L -->
+<part name="71505.dat" type="cont" rigid="70" len="220">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 12L -->
+<part name="71175.dat" type="cont" rigid="80" len="240">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 13L -->
+<part name="71551.dat" type="cont" rigid="85" len="260">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 14L -->
+<part name="71177.dat" type="cont" rigid="90" len="280">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 15L -->
+<part name="71194.dat" type="cont" rigid="100" len="300">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 16L -->
+<part name="71192.dat" type="cont" rigid="105" len="320">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 17L -->
+<part name="76270.dat" type="cont" rigid="110" len="340">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 18L -->
+<part name="71582.dat" type="cont" rigid="120" len="360">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 19L -->
+<part name="22463.dat" type="cont" rigid="120" len="380">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 20L -->
+<part name="76276.dat" type="cont" rigid="130" len="400">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 21L -->
+<part name="70978.dat" type="cont" rigid="140" len="420">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 22L -->
+<part name="76252.dat" type="cont" rigid="140" len="440">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 23L -->
+<part name="76254.dat" type="cont" rigid="150" len="460">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 24L -->
+<part name="76277.dat" type="cont" rigid="160" len="480">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 26L -->
+<part name="53475.dat" type="cont" rigid="170" len="520">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 28L -->
+<part name="76280.dat" type="cont" rigid="180" len="560">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 29L -->
+<part name="76389.dat" type="cont" rigid="190" len="580">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 30L -->
+<part name="76282.dat" type="cont" rigid="200" len="600">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 31L -->
+<part name="76283.dat" type="cont" rigid="205" len="620">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 32L -->
+<part name="57274.dat" type="cont" rigid="210" len="640">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 33L -->
+<part name="42688.dat" type="cont" rigid="220" len="660">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 34L -->
+<part name="22461.dat" type="cont" rigid="225" len="680">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 40L -->
+<part name="46305.dat" type="cont" rigid="260" len="800">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 45L -->
+<part name="76281.dat" type="cont" rigid="300" len="900">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+<!-- rigid hose 3mm 53L -->
+<part name="22296.dat" type="cont" rigid="350" len="1060">
+  <start name="u9053.dat" b="0,1,0" h="0,10,0" />
+  <mid name="77.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="u9053.dat" b="0,1,0" h="0,10,0" />
+</part>
+
+<!-- flex-system cable -->
+<part name="342.dat" type="cont" rigid="50" len="0">
+  <start name="342.dat" b="0,-20,0" h="0,-30,0" />
+  <mid name="343.dat" b="0,0,0" h="0,1,0" overlap="0.25" />
+  <end name="342.dat" b="0,-20,0" h="0,-30,0" />
+</part>
+
+<!-- hose pneumatic -->
+<part name="165.dat" type="cont" rigid="30" len="0">
+  <start name="165.dat" b="0,0,0" h="0,-10,0" />
+  <mid name="166.dat" b="0,0,0" h="0,1,0" overlap="0.25"/>
+  <end name="165.dat" b="0,0,0" h="0,-10,0" />
+</part>  
+</partlist>
+</flexparts>

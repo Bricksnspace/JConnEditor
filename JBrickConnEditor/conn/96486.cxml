@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 96486.dat
+Description: Figure Friends Glasses Heart Shaped with Pin
+Date: 10/02/15 13.35-->
+<connections>
+<cpoint type="DECPIN">
+<base x="0.0" y="6.5" z="0.0"></base>
+<dir x="0.0" y="0.5" z="0.0"></dir>
+</cpoint>
+</connections>
+

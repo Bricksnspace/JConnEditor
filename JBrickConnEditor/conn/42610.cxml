@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 42610.dat
+Description: Wheel Rim  8 x 11.2 with Centre Groove
+Date: 03/12/14 11.57-->
+<connections>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_TYRE">
+<base x="0.0" y="0.0" z="8.0"></base>
+<dir x="0.0" y="0.0" z="-2.0"></dir>
+</cpoint>
+</connections>
+

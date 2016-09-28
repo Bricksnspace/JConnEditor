@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 98286.dat
+Description: Hinge Plate  2 x  4.5 Top with Technic Pin Hole
+Date: 30/03/15 14.31-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="20.0"></base>
+<dir x="0.0" y="6.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="10.0"></base>
+<dir x="-10.0" y="6.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="10.0"></base>
+<dir x="10.0" y="6.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="20.0"></base>
+<dir x="0.0" y="8.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="-10.0"></base>
+<dir x="-10.0" y="6.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="-10.0"></base>
+<dir x="10.0" y="6.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="-20.0"></base>
+<dir x="0.0" y="6.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="8.0" z="-30.0"></base>
+<dir x="-10.0" y="6.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="8.0" z="-30.0"></base>
+<dir x="10.0" y="6.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="8.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="20.0" y="10.0" z="40.0"></base>
+<dir x="10.0" y="10.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="10.0" z="40.0"></base>
+<dir x="10.0" y="10.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="8.0" z="20.0"></base>
+<dir x="0.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="20.0"></base>
+<dir x="0.0" y="8.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="8.0" z="-20.0"></base>
+<dir x="0.0" y="0.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="8.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="20.0" y="10.0" z="40.0"></base>
+<dir x="10.0" y="10.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="10.0" z="40.0"></base>
+<dir x="10.0" y="10.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="20.0"></base>
+<dir x="0.0" y="8.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="8.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="8.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="20.0" y="10.0" z="40.0"></base>
+<dir x="10.0" y="10.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="10.0" z="40.0"></base>
+<dir x="10.0" y="10.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-30.0"></base>
+<dir x="10.0" y="-4.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-10.0"></base>
+<dir x="10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="-30.0"></base>
+<dir x="-10.0" y="-4.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="-10.0"></base>
+<dir x="-10.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="10.0"></base>
+<dir x="-10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="10.0"></base>
+<dir x="10.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+</connections>
+

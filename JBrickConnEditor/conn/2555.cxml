@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2555.dat
+Description: Tile  1 x  1 with Clip
+Date: 12/01/15 15.19-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="8.0" z="0.0"></base>
+<dir x="0.0" y="4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-6.0" z="4.0"></base>
+<dir x="0.0" y="-6.0" z="-4.0"></dir>
+</cpoint>
+</connections>
+

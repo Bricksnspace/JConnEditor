@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 6128.dat
+Description: Animal Dragon Arm Left
+Date: 18/02/15 16.26-->
+<connections>
+<cpoint type="CLIP">
+<base x="2.0" y="-32.5" z="-59.0"></base>
+<dir x="5.5" y="-32.5" z="-59.0"></dir>
+</cpoint>
+<cpoint type="PIN">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="-20.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

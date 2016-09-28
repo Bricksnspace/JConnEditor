@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 13793.dat
+Description: Minifig Welding Gas Torch with Hose and Gas Cylinder Top
+Date: 24/03/15 18.13-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="10.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-29.0" y="-43.0" z="0.0"></base>
+<dir x="-29.0" y="-19.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

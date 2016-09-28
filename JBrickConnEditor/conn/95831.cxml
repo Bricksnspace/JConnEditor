@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 95831.dat
+Description: Plant Flower with  6 Rounded Petals with Bar and Pin Hole
+Date: 10/02/15 13.29-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="-6.5" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="DECHOLE">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-7.5" z="0.0"></dir>
+</cpoint>
+</connections>
+

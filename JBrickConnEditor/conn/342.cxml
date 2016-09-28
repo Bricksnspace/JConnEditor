@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 342.dat
+Description: ~Technic Flex-System Cable End
+Date: 23/03/15 15.31-->
+<connections>
+<cpoint type="FLEX_CABLE">
+<base x="0.0" y="-4.0" z="0.0"></base>
+<dir x="0.0" y="-11.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

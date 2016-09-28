@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 32209.dat
+Description: Technic Axle  5.5 with Stop
+Date: 23/01/15 14.19-->
+<connections>
+<cpoint type="AXLE">
+<base x="-55.0" y="0.0" z="0.0"></base>
+<dir x="-37.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="AXLE">
+<base x="-27.0" y="0.0" z="0.0"></base>
+<dir x="53.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 53989.dat
+Description: Minifig Mechanical Arm with Clip and Rod Hole
+Date: 24/03/15 12.27-->
+<connections>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="4.0"></base>
+<dir x="0.0" y="0.0" z="-4.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="38.0" y="17.5" z="0.0"></base>
+<dir x="28.0" y="17.5" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="23.5" y="17.5" z="7.0"></base>
+<dir x="23.5" y="17.5" z="-7.0"></dir>
+</cpoint>
+</connections>
+

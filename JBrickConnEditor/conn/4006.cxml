@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4006.dat
+Description: Minifig Tool Spanner/Screwdriver
+Date: 19/12/14 10.59-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-4.0" y="-23.5" z="2.5"></base>
+<dir x="0.0" y="-23.5" z="2.5"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="4.0" y="-23.5" z="2.5"></base>
+<dir x="0.0" y="-23.5" z="2.5"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="40.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

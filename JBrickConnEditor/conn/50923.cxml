@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 50923.dat
+Description: Technic Beam  2 Liftarm with Angled Ball Joint
+Date: 21/12/14 19.22-->
+<connections>
+<cpoint type="R_AXLE">
+<base x="0.0" y="10.0" z="20.0"></base>
+<dir x="0.0" y="-10.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="10.0" z="0.0"></base>
+<dir x="0.0" y="-10.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-10.0" z="20.0"></base>
+<dir x="0.0" y="10.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-10.0" z="0.0"></base>
+<dir x="0.0" y="10.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BALL">
+<base x="20.0" y="0.0" z="-20.0"></base>
+<dir x="20.0" y="0.0" z="-20.0"></dir>
+</cpoint>
+</connections>
+

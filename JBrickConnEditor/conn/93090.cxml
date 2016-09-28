@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 93090.dat
+Description: Figure Friends Accessories Bag Round with Ruffle
+Date: 24/03/15 12.21-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-2.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-9.0" y="-28.5" z="0.0"></base>
+<dir x="9.0" y="-28.5" z="0.0"></dir>
+</cpoint>
+</connections>
+

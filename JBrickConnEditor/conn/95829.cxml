@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 95829.dat
+Description: Plant Flower Rose with Bar and Pin Hole
+Date: 10/02/15 13.26-->
+<connections>
+<cpoint type="BAR">
+<base x="0.0" y="-5.5" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="DECHOLE">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-13.5" z="0.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3815s01.dat
+Description: ~Minifig Hips without Decorated Surface
+Date: 01/12/14 15.39-->
+<connections>
+<cpoint type="MFSTUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="MFSTUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-6.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="MFPIN">
+<base x="-2.0" y="12.0" z="0.0"></base>
+<dir x="-10.0" y="12.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="MFPIN">
+<base x="2.0" y="12.0" z="0.0"></base>
+<dir x="10.0" y="12.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

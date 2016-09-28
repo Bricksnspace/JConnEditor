@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+Main connection type definition file
+Date: 16 jan 2015 
+Mario Pascucci
+-->
+<connectiondefs>
+  <conndef>
+    <conn name="STUD" type="V" descr="Solid stud"/>
+    <conn name="R_STUD" type="V" descr="Tube or stud receiver"/>
+  </conndef>
+  <conndef>
+    <conn name="STUDJ" type="V" descr="Open stud hole"/>
+    <conn name="R_STUDJ" type="V" descr="Pin inserting in open stud center"/>
+  </conndef>
+  <conndef>
+    <conn name="PEGHOLE" type="V" descr="Technic round pinhole"/>
+    <conn name="PIN" type="V" descr="Technic round pin"/>
+  </conndef>
+  <conndef>
+    <conn name="AXLE" type="R" descr="Technic cross axle"/>
+    <conn name="R_AXLE" type="R" descr="Axle hole"/>
+  </conndef>
+  <conndef>
+    <conn name="BAR" type="R" descr="Bar or handle (4LDU)"/>
+    <conn name="CLIP" type="R" descr="Clip for bar/handle (4LDU)"/>
+  </conndef>
+  <conndef>
+    <conn name="WHEELPIN" type="V" descr="Wheel pin small (4LDU)"/>
+    <conn name="R_WHEELPIN" type="V" descr="Wheel hole small (4LDU)"/>
+  </conndef>
+  <conndef>
+    <conn name="GLASS" type="V" descr="Pin for glass/shutter"/>
+    <conn name="R_GLASS" type="V" descr="Hole for glass/shutter"/>
+  </conndef>
+  <!-- Minifig parts -->
+  <conndef>
+    <conn name="MFARM" type="V" descr="Shoulder/arm peg"/>
+    <conn name="R_MFARM" type="V" descr="MF armpit hole"/>
+  </conndef>
+  <conndef>
+    <conn name="MFHAND" type="V" descr="MF hand (wrist bar)"/>
+    <conn name="R_MFHAND" type="V" descr="MF wrist hole (for hand)"/>
+  </conndef>
+  <conndef>
+    <conn name="MFPIN" type="V" descr="MF hips-leg pin"/>
+    <conn name="R_MFPIN" type="V" descr="MF hips-leg hole"/>
+  </conndef>
+  <conndef>
+    <conn name="MFSTUD" type="V" descr="MF hips stud"/>
+    <conn name="R_MFSTUD" type="V" descr="MF torso lower hole"/>
+  </conndef>
+  <conndef>
+    <conn name="MFNECK" type="R" descr="MF neck stud"/>
+    <conn name="R_MFNECK" type="R" descr="MF head hole/ring for neck"/>
+  </conndef>
+  <!-- Turntables and hinges -->
+  <conndef>
+    <conn name="TTABLE" type="V" descr="Turntable top"/>
+    <conn name="R_TTABLE" type="V" descr="Turntable bottom"/>
+  </conndef>
+  <conndef>
+    <conn name="HFINGER" type="V" descr="Hinge finger"/>
+    <conn name="HSLOT" type="V" descr="Hinge slot"/>
+  </conndef>
+  <conndef>
+    <conn name="CLHFINGER" type="V" descr="Hinge locking finger"/>
+    <conn name="CLHFORK" type="V" descr="Hinge locking fork/slot"/>
+  </conndef>
+  <conndef>
+    <conn name="BALL" type="P" descr="Ball or towball"/>
+    <conn name="R_BALL" type="P" descr="Socket for ball or towball"/>
+  </conndef>
+  <conndef>
+    <conn name="TYRE" type="V" descr="Tyre"/>
+    <conn name="R_TYRE" type="V" descr="Rim or wheel"/>
+  </conndef>
+  <conndef>
+    <conn name="DECPIN" type="R" descr="Decoration or plant pin"/>
+    <conn name="DECHOLE" type="R" descr="Decoration or flower hole"/>
+  </conndef>
+  <conndef>
+    <conn name="ROLLERPIN" type="V" descr="Roller door pin"/>
+    <conn name="ROLLERHOLE" type="V" descr="Roller door hole"/>
+  </conndef>
+  <conndef>
+    <conn name="ROLLERHINGE" type="R" descr="Roller door or drawer track"/>
+    <conn name="ROLLERRAIL" type="R" descr="Roller door or drawer rail/groove"/>
+  </conndef>
+  <conndef>
+    <conn name="FR_LEGHOLE" type="V" descr="Friends hips hole for legs"/>
+    <conn name="FR_LEGPIN" type="V" descr="Friends legs pins"/>
+  </conndef>
+  <conndef>
+    <conn name="FR_HIPS" type="V" descr="Friends hips stud for waist"/>
+    <conn name="FR_TORSO" type="V" descr="Friends torso waist hole"/>
+  </conndef>
+  <conndef>
+    <conn name="FR_ARMPIN" type="V" descr="Friends arm pin"/>
+    <conn name="FR_ARMHOLE" type="V" descr="Friends armpit hole"/>
+  </conndef>
+  <conndef>
+    <conn name="PNEU_PIN" type="V" descr="Pneumatic hose connector"/>
+    <conn name="PNEU_HOSE" type="V" descr="Pneumatic hose"/>
+  </conndef>
+  <conndef>
+    <conn name="FLEX_CABLE" type="V" descr="Flex-System cable end"/>
+    <conn name="FLEX_CONN" type="V" descr="Flex-System receiver"/>
+  </conndef>
+  
+</connectiondefs>
+

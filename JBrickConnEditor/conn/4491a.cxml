@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4491a.dat
+Description: Animal Horse Saddle with One Clip
+Date: 18/06/15 17.38-->
+<connections>
+<cpoint type="R_STUD">
+<base x="10.0" y="7.0" z="0.0"></base>
+<dir x="10.0" y="5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="7.0" z="0.0"></base>
+<dir x="-10.0" y="5.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-31.0" y="-14.0" z="17.5"></base>
+<dir x="-31.0" y="-6.0" z="17.5"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUDJ">
+<base x="0.0" y="7.0" z="0.0"></base>
+<dir x="0.0" y="5.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

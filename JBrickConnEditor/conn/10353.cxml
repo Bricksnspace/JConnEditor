@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 10353.dat
+Description: ~Animal Horse Poseable Body Right
+Date: 22/06/15 14.17-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-10.0" y="70.5" z="-67.0"></base>
+<dir x="-10.0" y="68.5" z="-67.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="13.5" z="-40.9"></base>
+<dir x="10.0" y="9.5" z="-40.9"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="13.5" z="-40.9"></base>
+<dir x="-10.0" y="9.5" z="-40.9"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="9.5" z="-40.9"></base>
+<dir x="10.0" y="13.5" z="-40.9"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="9.5" z="-40.9"></base>
+<dir x="-10.0" y="13.5" z="-40.9"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="13.5" z="-40.9"></base>
+<dir x="10.0" y="9.5" z="-40.9"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="13.5" z="-40.9"></base>
+<dir x="-10.0" y="9.5" z="-40.9"></dir>
+</cpoint>
+</connections>
+

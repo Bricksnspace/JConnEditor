@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 79.dat
+Description: ~Technic Ribbed Hose End Segment
+Date: 24/03/15 16.13-->
+<connections>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="5.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

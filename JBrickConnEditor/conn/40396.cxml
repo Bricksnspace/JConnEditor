@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 40396.dat
+Description: Animal Dinosaur Tail/Neck S Curve with Black Pin
+Date: 18/06/15 17.36-->
+<connections>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="0.0" z="-40.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="48.0" y="0.0" z="50.0"></base>
+<dir x="48.0" y="0.0" z="59.0"></dir>
+</cpoint>
+<cpoint type="PIN">
+<base x="0.0" y="0.0" z="-20.0"></base>
+<dir x="0.0" y="0.0" z="-40.0"></dir>
+</cpoint>
+</connections>
+

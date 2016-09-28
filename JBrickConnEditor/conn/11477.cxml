@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 11477.dat
+Description: Slope Brick Curved  2 x  1
+Date: 27/12/15 22.11-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="-8.0" z="10.0"></base>
+<dir x="0.0" y="-12.0" z="10.0"></dir>
+</cpoint>
+</connections>
+

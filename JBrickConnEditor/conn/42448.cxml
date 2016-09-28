@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 42448.dat
+Description: Gate  1 x  4 x  9 Arched with Bars
+Date: 24/03/15 12.13-->
+<connections>
+<cpoint type="STUDJ">
+<base x="4.0" y="0.0" z="20.0"></base>
+<dir x="8.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="4.0" y="0.0" z="40.0"></base>
+<dir x="8.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="4.0" y="0.0" z="60.0"></base>
+<dir x="8.0" y="0.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-4.0" y="0.0" z="20.0"></base>
+<dir x="-8.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-4.0" y="0.0" z="40.0"></base>
+<dir x="-8.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-4.0" y="0.0" z="60.0"></base>
+<dir x="-8.0" y="0.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="8.0" y="0.0" z="20.0"></base>
+<dir x="4.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="8.0" y="0.0" z="40.0"></base>
+<dir x="4.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="8.0" y="0.0" z="60.0"></base>
+<dir x="4.0" y="0.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-8.0" y="0.0" z="20.0"></base>
+<dir x="-4.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-8.0" y="0.0" z="40.0"></base>
+<dir x="-4.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-8.0" y="0.0" z="60.0"></base>
+<dir x="-4.0" y="0.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="4.0" y="0.0" z="20.0"></base>
+<dir x="8.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="4.0" y="0.0" z="40.0"></base>
+<dir x="8.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="4.0" y="0.0" z="60.0"></base>
+<dir x="8.0" y="0.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-4.0" y="0.0" z="20.0"></base>
+<dir x="-8.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-4.0" y="0.0" z="40.0"></base>
+<dir x="-8.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-4.0" y="0.0" z="60.0"></base>
+<dir x="-8.0" y="0.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="70.0" z="20.0"></base>
+<dir x="0.0" y="10.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-10.0" z="20.0"></base>
+<dir x="0.0" y="-52.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="70.0" z="40.0"></base>
+<dir x="0.0" y="10.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-10.0" z="40.0"></base>
+<dir x="0.0" y="-68.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="70.0" z="60.0"></base>
+<dir x="0.0" y="10.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-10.0" z="60.0"></base>
+<dir x="0.0" y="-74.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="73.0" z="70.0"></base>
+<dir x="0.0" y="73.0" z="3.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-83.0" z="60.0"></base>
+<dir x="0.0" y="-103.0" z="60.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-78.0" z="40.0"></base>
+<dir x="0.0" y="-97.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="-66.0" z="20.0"></base>
+<dir x="0.0" y="-85.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="0.0" y="69.0" z="0.0"></base>
+<dir x="0.0" y="-60.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

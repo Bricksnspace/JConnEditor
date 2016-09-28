@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 92240.dat
+Description: Figure Friends Male Head without Pattern
+Date: 10/02/15 13.41-->
+<connections>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="-3.0"></base>
+<dir x="0.0" y="-4.0" z="-3.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="0.0" y="0.0" z="-3.0"></base>
+<dir x="0.0" y="-4.0" z="-3.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="-3.0"></base>
+<dir x="0.0" y="0.0" z="-3.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-4.0" z="-3.0"></base>
+<dir x="0.0" y="0.0" z="-3.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="25.5" z="0.0"></base>
+<dir x="0.0" y="16.5" z="0.0"></dir>
+</cpoint>
+</connections>
+

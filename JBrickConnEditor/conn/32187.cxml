@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 32187.dat
+Description: Technic Transmission Driving Ring Extension
+Date: 19/01/15 11.45-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="-4.0"></base>
+<dir x="0.0" y="0.0" z="2.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="9.0"></base>
+<dir x="0.0" y="0.0" z="4.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="11.0"></base>
+<dir x="0.0" y="0.0" z="-4.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="9.0"></base>
+<dir x="0.0" y="0.0" z="-4.0"></dir>
+</cpoint>
+</connections>
+

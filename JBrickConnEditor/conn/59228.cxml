@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 59228.dat
+Description: Animal Horse Skeletal
+Date: 18/06/15 18.03-->
+<connections>
+<cpoint type="R_STUD">
+<base x="10.0" y="56.0" z="40.0"></base>
+<dir x="10.0" y="54.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="56.0" z="0.0"></base>
+<dir x="-10.0" y="54.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="56.0" z="-20.0"></base>
+<dir x="-10.0" y="54.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="56.0" z="-60.0"></base>
+<dir x="10.0" y="54.0" z="-60.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.4" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.4" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-4.4" z="0.0"></base>
+<dir x="-10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-4.4" z="0.0"></base>
+<dir x="10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-20.5" y="-14.5" z="-40.0"></base>
+<dir x="-15.0" y="-14.5" z="-40.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="20.5" y="-14.5" z="-40.0"></base>
+<dir x="15.0" y="-14.5" z="-40.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="20.5" y="-14.5" z="40.0"></base>
+<dir x="15.0" y="-14.5" z="40.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-20.5" y="-14.5" z="40.0"></base>
+<dir x="-15.0" y="-14.5" z="40.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="16.0" y="-22.5" z="-20.0"></base>
+<dir x="11.0" y="-22.5" z="-20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-16.0" y="-22.5" z="-20.0"></base>
+<dir x="-11.0" y="-22.5" z="-20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-16.0" y="-22.5" z="20.0"></base>
+<dir x="-11.0" y="-22.5" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="16.0" y="-22.5" z="20.0"></base>
+<dir x="11.0" y="-22.5" z="20.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-7.5" y="-27.5" z="-95.0"></base>
+<dir x="8.5" y="-27.5" z="-95.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-46.5" z="-100.0"></base>
+<dir x="-14.5" y="-46.5" z="-100.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-46.5" z="-100.0"></base>
+<dir x="14.5" y="-46.5" z="-100.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-14.5" y="-46.5" z="-100.0"></base>
+<dir x="-9.0" y="-46.5" z="-100.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="14.5" y="-46.5" z="-100.0"></base>
+<dir x="9.5" y="-46.5" z="-100.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.4" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.4" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="16.0" y="-14.5" z="-40.0"></base>
+<dir x="20.5" y="-14.5" z="-40.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-16.0" y="-14.5" z="-40.0"></base>
+<dir x="-20.5" y="-14.5" z="-40.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="-16.0" y="-14.5" z="40.0"></base>
+<dir x="-20.5" y="-14.5" z="40.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="16.0" y="-14.5" z="40.0"></base>
+<dir x="20.5" y="-14.5" z="40.0"></dir>
+</cpoint>
+</connections>
+

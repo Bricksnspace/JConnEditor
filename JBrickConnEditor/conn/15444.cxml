@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 15444.dat
+Description: Brick  1 x  1 x  2 with Square Hole in 1 Side
+Date: 14/03/15 23.33-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="48.0" z="0.0"></base>
+<dir x="0.0" y="44.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="18.0" z="-10.0"></base>
+<dir x="0.0" y="18.0" z="-6.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

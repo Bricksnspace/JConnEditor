@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 4706.dat
+Description: ~Technic Pneumatic Distribution Block  2 x  4 Internals
+Date: 23/03/15 16.40-->
+<connections>
+<cpoint type="PNEU_PIN">
+<base x="-20.0" y="8.0" z="-32.0"></base>
+<dir x="-20.0" y="8.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="0.0" y="8.0" z="-32.0"></base>
+<dir x="0.0" y="8.0" z="-24.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="20.0" y="8.0" z="-32.0"></base>
+<dir x="20.0" y="8.0" z="-24.0"></dir>
+</cpoint>
+</connections>
+

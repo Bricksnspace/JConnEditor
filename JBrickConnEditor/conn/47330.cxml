@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 47330.dat
+Description: Technic Connector Block  3 x  3 x  1 with Two Ball Joints
+Date: 16/02/15 10.20-->
+<connections>
+<cpoint type="R_STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="20.0" z="20.0"></base>
+<dir x="0.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="20.0" z="-20.0"></base>
+<dir x="0.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="20.0" z="20.0"></base>
+<dir x="0.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="20.0" z="-20.0"></base>
+<dir x="0.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="10.0" y="20.0" z="20.0"></base>
+<dir x="0.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="10.0" y="20.0" z="-20.0"></base>
+<dir x="0.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-10.0" y="20.0" z="20.0"></base>
+<dir x="0.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-10.0" y="20.0" z="-20.0"></base>
+<dir x="0.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="10.0" y="20.0" z="20.0"></base>
+<dir x="0.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="10.0" y="20.0" z="-20.0"></base>
+<dir x="0.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-10.0" y="20.0" z="0.0"></base>
+<dir x="0.0" y="20.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-10.0" y="20.0" z="20.0"></base>
+<dir x="0.0" y="20.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-10.0" y="20.0" z="-20.0"></base>
+<dir x="0.0" y="20.0" z="-20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="40.0" z="-10.0"></base>
+<dir x="0.0" y="40.0" z="-28.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="40.0" z="10.0"></base>
+<dir x="0.0" y="40.0" z="28.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="40.0" z="-10.0"></base>
+<dir x="0.0" y="40.0" z="-28.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="40.0" z="10.0"></base>
+<dir x="0.0" y="40.0" z="28.0"></dir>
+</cpoint>
+<cpoint type="BALL">
+<base x="0.0" y="0.0" z="40.0"></base>
+<dir x="0.0" y="0.0" z="40.0"></dir>
+</cpoint>
+<cpoint type="BALL">
+<base x="0.0" y="0.0" z="-40.0"></base>
+<dir x="0.0" y="0.0" z="-40.0"></dir>
+</cpoint>
+</connections>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2463.dat
+Description: Brick  3 x  3 x  2 Facet Top
+Date: 14/03/15 23.39-->
+<connections>
+<cpoint type="R_STUD">
+<base x="-20.0" y="0.0" z="10.0"></base>
+<dir x="-20.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="-4.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-40.0" y="24.0" z="10.0"></base>
+<dir x="-40.0" y="20.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="24.0" z="-30.0"></base>
+<dir x="0.0" y="20.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-20.0" y="24.0" z="-10.0"></base>
+<dir x="-20.0" y="20.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-40.0" y="24.0" z="-10.0"></base>
+<dir x="-40.0" y="20.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-20.0" y="24.0" z="-30.0"></base>
+<dir x="-20.0" y="20.0" z="-30.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="0.0" y="-24.0" z="10.0"></base>
+<dir x="0.0" y="-28.0" z="10.0"></dir>
+</cpoint>
+</connections>
+

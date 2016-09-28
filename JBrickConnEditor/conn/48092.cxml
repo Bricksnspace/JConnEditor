@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 48092.dat
+Description: Brick  4 x  4 Round Corner
+Date: 19/12/14 14.13-->
+<connections>
+<cpoint type="STUD">
+<base x="70.0" y="0.0" z="-10.0"></base>
+<dir x="70.0" y="-4.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="50.0" y="0.0" z="-50.0"></base>
+<dir x="50.0" y="-4.0" z="-50.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="-70.0"></base>
+<dir x="10.0" y="-4.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="24.0" z="-70.0"></base>
+<dir x="10.0" y="20.0" z="-70.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="50.0" y="24.0" z="-50.0"></base>
+<dir x="50.0" y="20.0" z="-50.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="70.0" y="24.0" z="-10.0"></base>
+<dir x="70.0" y="20.0" z="-10.0"></dir>
+</cpoint>
+</connections>
+

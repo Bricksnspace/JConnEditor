@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2548.dat
+Description: Animal Shark Head
+Date: 18/06/15 17.31-->
+<connections>
+<cpoint type="GLASS">
+<base x="-18.800001" y="0.0" z="0.0"></base>
+<dir x="-18.300001" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="GLASS">
+<base x="18.800001" y="0.0" z="0.0"></base>
+<dir x="18.2" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

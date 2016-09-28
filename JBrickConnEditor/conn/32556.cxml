@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 32556.dat
+Description: Technic Pin Long
+Date: 03/12/14 12.26-->
+<connections>
+<cpoint type="PIN">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="8.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PIN">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="30.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PIN">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-30.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

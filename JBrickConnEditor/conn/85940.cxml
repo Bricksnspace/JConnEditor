@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 85940.dat
+Description: Technic Beam  2 with Angled Bar
+Date: 19/12/14 16.31-->
+<connections>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="10.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="-10.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="-10.0" z="20.0"></base>
+<dir x="0.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="10.0" z="20.0"></base>
+<dir x="0.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="-10.0" z="0.0"></base>
+<dir x="0.0" y="10.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="-10.0" z="20.0"></base>
+<dir x="0.0" y="10.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="8.0" y="0.0" z="-8.0"></base>
+<dir x="22.0" y="0.0" z="-22.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="10.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="-10.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="-10.0" z="20.0"></base>
+<dir x="0.0" y="0.0" z="20.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="10.0" z="20.0"></base>
+<dir x="0.0" y="0.0" z="20.0"></dir>
+</cpoint>
+</connections>
+

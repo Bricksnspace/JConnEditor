@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 30103.dat
+Description: Animal Bat
+Date: 26/06/15 14.38-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-2.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="0.0" y="-6.0" z="0.0"></base>
+<dir x="0.0" y="-16.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

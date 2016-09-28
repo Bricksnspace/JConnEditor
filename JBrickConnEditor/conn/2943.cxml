@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2943.dat
+Description: ~Technic Pneumatic Pump 1 x 1 Base
+Date: 23/03/15 16.28-->
+<connections>
+<cpoint type="R_STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PNEU_PIN">
+<base x="0.0" y="-10.0" z="-26.0"></base>
+<dir x="0.0" y="-10.0" z="-15.0"></dir>
+</cpoint>
+</connections>
+

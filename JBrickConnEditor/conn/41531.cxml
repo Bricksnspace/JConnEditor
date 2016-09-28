@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 41531.dat
+Description: Technic Cylinder  4 x  4 x  2 with 3 Pin Holes and Center Bar
+Date: 19/01/15 11.49-->
+<connections>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="-40.0" y="0.0" z="0.0"></base>
+<dir x="-26.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PEGHOLE">
+<base x="38.0" y="0.0" z="0.0"></base>
+<dir x="26.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-40.0" y="0.0" z="0.0"></base>
+<dir x="-26.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="38.0" y="0.0" z="0.0"></base>
+<dir x="26.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="10.0"></base>
+<dir x="0.0" y="0.0" z="-10.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="26.0" y="0.0" z="0.0"></base>
+<dir x="38.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-26.0" y="0.0" z="0.0"></base>
+<dir x="-40.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

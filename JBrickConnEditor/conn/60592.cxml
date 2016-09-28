@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 60592.dat
+Description: Window  1 x  2 x  2 without Sill
+Date: 26/11/14 14.19-->
+<connections>
+<cpoint type="STUD">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUD">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="-10.0" y="48.0" z="0.0"></base>
+<dir x="-10.0" y="44.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="0.0" y="48.0" z="0.0"></base>
+<dir x="0.0" y="44.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_STUD">
+<base x="10.0" y="48.0" z="0.0"></base>
+<dir x="10.0" y="44.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="-10.0" y="0.0" z="0.0"></base>
+<dir x="-10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="STUDJ">
+<base x="10.0" y="0.0" z="0.0"></base>
+<dir x="10.0" y="-4.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="-10.0" y="-4.0" z="0.0"></base>
+<dir x="-10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="CLIP">
+<base x="10.0" y="-4.0" z="0.0"></base>
+<dir x="10.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="0.0" y="40.0" z="-5.0"></base>
+<dir x="0.0" y="42.0" z="-5.0"></dir>
+</cpoint>
+<cpoint type="R_GLASS">
+<base x="0.0" y="3.0" z="-5.0"></base>
+<dir x="0.0" y="1.0" z="-5.0"></dir>
+</cpoint>
+</connections>
+

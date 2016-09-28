@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 2714.dat
+Description: Bar 7.6L with Stop
+Date: 17/06/15 14.54-->
+<connections>
+<cpoint type="CLIP">
+<base x="-80.0" y="0.0" z="0.0"></base>
+<dir x="-100.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="PIN">
+<base x="-80.0" y="0.0" z="0.0"></base>
+<dir x="-100.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="-74.0" y="0.0" z="0.0"></base>
+<dir x="38.0" y="0.0" z="0.0"></dir>
+</cpoint>
+<cpoint type="BAR">
+<base x="42.0" y="0.0" z="0.0"></base>
+<dir x="60.0" y="0.0" z="0.0"></dir>
+</cpoint>
+</connections>
+
