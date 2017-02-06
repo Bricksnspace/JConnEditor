@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3647.dat
+Description: Technic Gear  8 Tooth
+Date: 18/11/16 15.27-->
+<connections>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="10.0"></dir>
+</cpoint>
+</connections>
+

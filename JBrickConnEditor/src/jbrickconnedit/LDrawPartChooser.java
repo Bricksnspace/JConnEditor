@@ -40,7 +40,10 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.TimeZone;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
+import javax.media.opengl.GLException;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JDialog;
@@ -68,7 +71,6 @@ import bricksnspace.ldrawdb.LDrawPartCategory;
 import bricksnspace.ldrawlib.ConnectionPoint;
 import bricksnspace.ldrawlib.LDPrimitive;
 import bricksnspace.ldrawlib.LDrawColor;
-import bricksnspace.ldrawlib.LDrawException;
 import bricksnspace.ldrawlib.LDrawPart;
 
 
@@ -230,7 +232,8 @@ public class LDrawPartChooser extends JDialog implements ActionListener, ListSel
 
 		try {
 			preview = new LDrawGLDisplay();
-		} catch (LDrawException e) {
+		} catch (GLException e) {
+			Logger.getGlobal().log(Level.SEVERE,"OpenGL error", e);			
 			e.printStackTrace();
 		}
 		JPanel previewPanel = new JPanel();

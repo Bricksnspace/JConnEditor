@@ -50,7 +50,9 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.prefs.BackingStoreException;
+
 import javax.imageio.ImageIO;
+import javax.media.opengl.GLException;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.ImageIcon;
@@ -91,7 +93,6 @@ import bricksnspace.ldrawlib.ImportLDrawProjectTask;
 import bricksnspace.ldrawlib.LDLibManageDlg;
 import bricksnspace.ldrawlib.LDPrimitive;
 import bricksnspace.ldrawlib.LDrawColor;
-import bricksnspace.ldrawlib.LDrawException;
 import bricksnspace.ldrawlib.LDrawLib;
 import bricksnspace.ldrawlib.LDrawPart;
 import bricksnspace.appsettings.AppSettings;
@@ -365,7 +366,7 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 		try {
 			gldisplay = new LDrawGLDisplay();
 		}
-		catch (LDrawException e) {
+		catch (GLException e) {
 			JOptionPane.showMessageDialog(null, 
 					"There is a problem with your graphic card:\n"+
 							e.getLocalizedMessage(), 
@@ -1555,8 +1556,8 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 		try {
 			ldrproject.get(10, TimeUnit.MILLISECONDS);
 			if (ldrproject.isWarnings()) {
-				JOptionPane.showMessageDialog(frame, ldrproject.getInternalLog(), 
-						"Project import messages", JOptionPane.WARNING_MESSAGE);
+				JOptionPane.showMessageDialog(frame, "There are some errors/missing parts. See logs for details", 
+						"Part load messages", JOptionPane.WARNING_MESSAGE);
 			}
 		}
 		catch (ExecutionException ex) {

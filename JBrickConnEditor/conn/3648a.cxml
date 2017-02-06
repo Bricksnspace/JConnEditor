@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3648a.dat
+Description: Technic Gear 24 Tooth with 3 Axleholes
+Date: 18/11/16 15.29-->
+<connections>
+<cpoint type="CLIP">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="0.0" y="0.0" z="-10.0"></base>
+<dir x="0.0" y="0.0" z="10.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="-16.0" y="0.0" z="-8.0"></base>
+<dir x="-16.0" y="0.0" z="8.0"></dir>
+</cpoint>
+<cpoint type="R_AXLE">
+<base x="16.0" y="0.0" z="-8.0"></base>
+<dir x="16.0" y="0.0" z="8.0"></dir>
+</cpoint>
+</connections>
+
