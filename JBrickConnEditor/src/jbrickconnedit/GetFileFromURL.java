@@ -29,6 +29,8 @@ import java.net.URL;
 
 import javax.swing.SwingWorker;
 
+import bricksnspace.busydialog.BusyDialog;
+
 
 
 public class GetFileFromURL extends SwingWorker<Integer, Void> {

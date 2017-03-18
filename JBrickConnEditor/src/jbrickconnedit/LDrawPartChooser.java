@@ -66,8 +66,8 @@ import javax.swing.table.TableColumnModel;
 import bricksnspace.j3dgeom.Matrix3D;
 import bricksnspace.ldraw3d.LDRenderedPart;
 import bricksnspace.ldraw3d.LDrawGLDisplay;
-import bricksnspace.ldrawdb.LDrawDB;
-import bricksnspace.ldrawdb.LDrawPartCategory;
+import bricksnspace.ldrawlib.LDrawLib;
+import bricksnspace.ldrawlib.LDrawPartCategory;
 import bricksnspace.ldrawlib.ConnectionPoint;
 import bricksnspace.ldrawlib.LDPrimitive;
 import bricksnspace.ldrawlib.LDrawColor;
@@ -83,7 +83,7 @@ public class LDrawPartChooser extends JDialog implements ActionListener, ListSel
 
 	private static final long serialVersionUID = -797889575391092019L;
 	private JTextField query;
-	private LDrawDB ldrdb;
+//	private LDrawLibDB ldrdb;
 	private LDrawGLDisplay preview;
 	private JTable resTable;
 	private JButton okButton;
@@ -95,6 +95,7 @@ public class LDrawPartChooser extends JDialog implements ActionListener, ListSel
 	private BufferedImage selected;
 	private JList<Object> catList;
 	private JButton updated;
+	private LDrawLib ldr;
 	private static Color fileConn = new Color(128,255,128);
 	private static Color fileConnSel = new Color(128,230,128);
 	private static Color autoConn = new Color(128,255,255);
@@ -144,11 +145,11 @@ public class LDrawPartChooser extends JDialog implements ActionListener, ListSel
 	
 	
 	
-	public LDrawPartChooser(Frame owner, String title, boolean modal, LDrawDB db) {
+	public LDrawPartChooser(Frame owner, String title, boolean modal, LDrawLib ldl) {
 		
 		super(owner, title,modal);
 		
-		ldrdb = db;
+		ldr = ldl;
 		Container root = getContentPane();
 		root.setLayout(new GridBagLayout());
 		GridBagConstraints gbc = new GridBagConstraints();
@@ -326,20 +327,20 @@ public class LDrawPartChooser extends JDialog implements ActionListener, ListSel
 			setVisible(false);
 		}
 		else if (ev.getSource() == updated) {
-			String res = JOptionPane.showInputDialog("Date updated (yyyy-mm-dd)");
-			if (res == null || res.length() == 0)
-				return;
+//			String res = JOptionPane.showInputDialog("Date updated (yyyy-mm-dd)");
+//			if (res == null || res.length() == 0)
+//				return;
         	try {
-        		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
-        		formatter.setTimeZone(TimeZone.getTimeZone("UTC"));
-        		formatter.setLenient(false);
-        		Date date = formatter.parse(res);
-        		selListModel.setParts(ldrdb.getUpdated(date));
-        	} catch (ParseException e) {
+//        		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+//        		formatter.setTimeZone(TimeZone.getTimeZone("UTC"));
+//        		formatter.setLenient(false);
+//        		Date date = formatter.parse(res);
+        		//selListModel.setParts(ldr.getLdrDB().getUpdatedAfter(date));
+        		selListModel.setParts(ldr.getLdrDB().getNew());
+//        	} catch (ParseException e) {
         		// ignore, leave unchanged
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				Logger.getGlobal().log(Level.SEVERE, "[LDrawPartChooser] Error getting updated parts", e);
 			}
 
 			
@@ -389,7 +390,7 @@ public class LDrawPartChooser extends JDialog implements ActionListener, ListSel
 			}
 			LDrawPartCategory lc = (LDrawPartCategory) catList.getSelectedValue();
 			try {
-				selListModel.setParts(ldrdb.getByCategory(lc));
+				selListModel.setParts(ldr.getLdrDB().getByCategory(lc));
 			}
 			catch (SQLException ex) {
 				return;
@@ -406,9 +407,9 @@ public class LDrawPartChooser extends JDialog implements ActionListener, ListSel
 		if (q.length() >= 2) {
 			ArrayList<LDrawPart> list;
 			try {
-				list = ldrdb.getFTS(q,100);
+				list = ldr.getLdrDB().getFTS(q,100);
 				if (list.size() == 0) {
-					list = ldrdb.getFTS(q+"*", 100);
+					list = ldr.getLdrDB().getFTS(q+"*", 100);
 				}
 			} catch (SQLException e1) {
 				return;

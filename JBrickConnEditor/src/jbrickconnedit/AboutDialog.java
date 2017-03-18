@@ -21,18 +21,12 @@
 package jbrickconnedit;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
-import java.awt.Desktop;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.IOException;
-import java.net.URI;
-import java.net.URISyntaxException;
-
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
@@ -54,9 +48,9 @@ public class AboutDialog extends JDialog implements ActionListener {
 	
 	private static final long serialVersionUID = -4693987158080226643L;
 	private JButton okButton;
-	private URI uri;
+	//private URI uri;
 	private JButton thanksButton;
-	private JButton otherSoftware;
+	//private JButton otherSoftware;
 	
 	
 	public AboutDialog(JFrame owner, String title, ImageIcon icn) {

@@ -27,6 +27,7 @@ public class MySettings {
 	// commodity names for your program options
 	//public static final String LDRAWDIR = "ldrawdir";
 	public static final String LDRAWZIP = "ldrawzip";
+	public static final String LIBOFFICIAL = "libofficial"; 
 	public static final String LIBLIST = "liblist";
 	public static final String ANTIALIAS = "antialias";
 	public static final String GRIDSIZE = "gridsize";

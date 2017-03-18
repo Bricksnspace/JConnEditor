@@ -1,5 +1,5 @@
 /*
-	Copyright 2014-2016 Mario Pascucci <mpascucci@gmail.com>
+	Copyright 2014-2017 Mario Pascucci <mpascucci@gmail.com>
 	This file is part of JBrickConnEditor
 
 	JBrickConnEditor is free software: you can redistribute it and/or modify
@@ -49,6 +49,10 @@ import java.util.Locale;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 import java.util.prefs.BackingStoreException;
 
 import javax.imageio.ImageIO;
@@ -72,7 +76,6 @@ import javax.swing.JTextField;
 import javax.swing.JToggleButton;
 import javax.swing.JToolBar;
 import javax.swing.SwingConstants;
-import javax.swing.Timer;
 import javax.swing.UIManager;
 import javax.swing.filechooser.FileFilter;
 import javax.swing.filechooser.FileNameExtensionFilter;
@@ -85,8 +88,7 @@ import bricksnspace.ldeditor.LDConnectionEditor;
 import bricksnspace.ldraw3d.LDRenderedPart;
 import bricksnspace.ldraw3d.LDrawGLDisplay;
 import bricksnspace.ldraw3d.ProgressUpdater;
-import bricksnspace.ldrawdb.LDrawDB;
-import bricksnspace.ldrawdb.LDrawDBImportTask;
+import bricksnspace.ldrawlib.LDrawDBImportTask;
 import bricksnspace.ldrawlib.ConnectionPoint;
 import bricksnspace.ldrawlib.ConnectionTypes;
 import bricksnspace.ldrawlib.ImportLDrawProjectTask;
@@ -98,6 +100,8 @@ import bricksnspace.ldrawlib.LDrawPart;
 import bricksnspace.appsettings.AppSettings;
 import bricksnspace.appsettings.AppUIResolution;
 import bricksnspace.appsettings.OptionsDialog;
+import bricksnspace.busydialog.BusyDialog;
+import bricksnspace.dbconnector.DBConnector;
 
 
 
@@ -117,7 +121,7 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 	
 	private static final String LDRURL = "http://www.ldraw.org/library/updates/complete.zip";
 
-	private final String appName = "JBrickConnEditor - LDraw Brick Connections Editor";
+	private final String appName = "JBrickConnEditor";
 	
 	private final String autoconnFile = "autoconnect.csv";
 	
@@ -184,7 +188,7 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 	private JButton queryBrick;
 	private JToggleButton enableGrid;
 	private ImageIcon[] icnImg = new ImageIcon[4];
-	private LDrawDB ldrdb;
+//	private LDrawLibDB ldrdb;
 	private JMenuItem mntmLdrParts;
 	private JMenuItem mntmAbout;
 	private JMenuItem mntmExit;
@@ -224,6 +228,8 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 	private boolean autoconnChanged = false;
 
 	private JMenuItem mntmLibs;
+
+	private DBConnector dbconn;
 	
 	
 	/*
@@ -237,6 +243,18 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 	
 	jbrickconn() {
 		
+		// logging system init
+		try {
+			FileHandler logFile = new FileHandler(appName+"-%g.log",0,3);
+			logFile.setLevel(Level.ALL);
+			logFile.setFormatter(new SimpleFormatter());
+			Logger.getGlobal().addHandler(logFile);
+			Logger.getGlobal().log(Level.INFO, "Logger started");
+		} catch (IOException e2) {
+			// TODO Auto-generated catch block
+			e2.printStackTrace();
+		}
+
 		imageFolder = AppUIResolution.getImgDir();
 		
 		// images for busy animation
@@ -251,9 +269,16 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 
 		ldr = null;
 
-		initPrefs();
+		try {
+			dbconn = new DBConnector("./jbb", "jbbuser", "");
+		} catch (ClassNotFoundException | SQLException e2) {
+			Logger.getGlobal().log(Level.SEVERE,"[MAIN] Unable to establish a connection with database.",e2);
+			System.exit(1);
+		}
 		
-		if (!AppSettings.isConfigured()) {
+		initPrefs();
+		//System.out.println(AppSettings.get(MySettings.LIBOFFICIAL));
+		if (!AppSettings.isConfigured() || AppSettings.get(MySettings.LIBOFFICIAL).equals("")) {
 			// this is a first run
 			firstRun();
 		}
@@ -261,11 +286,11 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 		try {
 			ldr = loadLibs();
 			// init LDraw part lib
-			LDrawPart.setLdrlib(ldr);
-			// read color definition
-			LDrawColor.readFromLibrary(ldr);
+//			LDrawPart.setLdrlib(ldr);
+//			// read color definition
+//			LDrawColor.readFromLibrary(ldr);
 		}
-		catch (IOException exc) {
+		catch (IOException | SQLException exc) {
 			JOptionPane.showMessageDialog(null, 
 					"Unable to read your LDraw library.\n"
 					+ "Please edit your library list\n "
@@ -273,35 +298,35 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 					+ "Original error was:\n"+
 							exc.getLocalizedMessage(), 
 					"Library Error", JOptionPane.ERROR_MESSAGE);
-			ldr = null;
+			System.exit(1);
 		}
 		// open parts database
-		try {
-			ldrdb = new LDrawDB("jbb","jbbuser","");
-		} catch (SQLException e1) {
-			JOptionPane.showMessageDialog(null, 
-					"Unable to create parts database.\n"
-					+"You can't use program without it.\n"
-					+ "Program now exits.",
-					"Database error", JOptionPane.ERROR_MESSAGE);
-			e1.printStackTrace();
-			System.exit(1);
-		} catch (ClassNotFoundException e1) {
-			JOptionPane.showMessageDialog(null, 
-					"Unable to load database driver.\n"
-					+"You can't use program without it.\n"
-					+ "Program now exits.",
-					"Database driver error", JOptionPane.ERROR_MESSAGE);
-			e1.printStackTrace();
-			System.exit(1);
-		}
-		if (ldrdb.getPartCount() < 1) {
-			JOptionPane.showMessageDialog(null,
-					"Your search database needs an update.\n"
-					+ "Click OK to start...",
-					"Database update", JOptionPane.INFORMATION_MESSAGE);
-			doPartDBUpdate();
-		}
+//		try {
+//			DBConnector dbc = new DBConnector("./jbb", "jbbuser", "");
+//		} catch (SQLException e1) {
+//			JOptionPane.showMessageDialog(null, 
+//					"Unable to create parts database.\n"
+//					+"You can't use program without it.\n"
+//					+ "Program now exits.",
+//					"Database error", JOptionPane.ERROR_MESSAGE);
+//			e1.printStackTrace();
+//			System.exit(1);
+//		} catch (ClassNotFoundException e1) {
+//			JOptionPane.showMessageDialog(null, 
+//					"Unable to load database driver.\n"
+//					+"You can't use program without it.\n"
+//					+ "Program now exits.",
+//					"Database driver error", JOptionPane.ERROR_MESSAGE);
+//			e1.printStackTrace();
+//			System.exit(1);
+//		}
+//		if (ldrdb.getPartCount() < 1) {
+//			JOptionPane.showMessageDialog(null,
+//					"Your search database needs an update.\n"
+//					+ "Click OK to start...",
+//					"Database update", JOptionPane.INFORMATION_MESSAGE);
+//			doPartDBUpdate();
+//		}
 		
 		// now checks for connections library
 		try {
@@ -784,7 +809,7 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 		status = new JLabel("Ready", icnReady, SwingConstants.LEFT);
 		panel.add(status, gbc);
 				
-		partChooser = new LDrawPartChooser(frame, "Search for part",true,ldrdb);
+		partChooser = new LDrawPartChooser(frame, "Search for part",true,ldr);
 		
 		LDRenderedPart.enableAuxLines();
 		LDRenderedPart.useBoundingSelect();
@@ -830,6 +855,7 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 		AppSettings.addPrivatePref(MySettings.LDRAWZIP, "LDraw lib file name", AppSettings.STRING);
 		AppSettings.defString(MySettings.LDRAWZIP, "complete.zip");
 		AppSettings.addPrivatePref(MySettings.LIBLIST, "LDraw lib list", AppSettings.STRING);
+		AppSettings.addPrivatePref(MySettings.LIBOFFICIAL, "LDraw official lib path", AppSettings.STRING);
 	}
 
 	
@@ -863,25 +889,24 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 			while (true) {
 				res = jfc.showOpenDialog(null);
 				if (res == JFileChooser.APPROVE_OPTION) {
-					if (LDrawLib.officialSanityCheck(jfc.getSelectedFile())) {
-						try {
-							ldr = new LDrawLib(jfc.getSelectedFile().getPath());
-							break;
-						} catch (IOException e) {
+					try {							
+						ldr = new LDrawLib(jfc.getSelectedFile().getPath(),dbconn);
+						if (!ldr.isOfficial(LDrawLib.OFFICIALINDEX)) {
 							JOptionPane.showMessageDialog(null,
-									"Unable to use library "+jfc.getSelectedFile().getName()+"\n" +
-									"Cause: "+e.getLocalizedMessage()+"\n"+
+									"File/folder "+jfc.getSelectedFile().getName()+"\n" +
+									"isn't an official LDraw library.\n"+
 									"Try again.",
-									"Library error", JOptionPane.ERROR_MESSAGE);
-							e.printStackTrace();
+									"Unknown folder/file", JOptionPane.ERROR_MESSAGE);
+							continue;
 						}
-					}
-					else {
+						break;
+					} catch (IOException | SQLException e) {
 						JOptionPane.showMessageDialog(null,
-								"File/folder "+jfc.getSelectedFile().getName()+"\n" +
-								"isn't an official LDraw library.\n"+
+								"Unable to use library "+jfc.getSelectedFile().getName()+"\n" +
+								"Cause: "+e.getLocalizedMessage()+"\n"+
 								"Try again.",
-								"Unknown folder/file", JOptionPane.ERROR_MESSAGE);
+								"Library error", JOptionPane.ERROR_MESSAGE);
+						Logger.getGlobal().log(Level.WARNING,"[firstRun] Error selecting library: "+jfc.getSelectedFile(),e);
 					}
 				}
 				else {
@@ -899,26 +924,24 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 			boolean found = false;
 			for (int tries=0;tries<3;tries++) {
 				doLDrawLibDownload();
-				File l = new File(AppSettings.get(MySettings.LDRAWZIP));
-				if (LDrawLib.officialSanityCheck(l)) {
-					try {
-						ldr = new LDrawLib(AppSettings.get(MySettings.LDRAWZIP));
-						found = true;
-						break;
-					} catch (IOException e) {
+				try {
+					ldr = new LDrawLib(AppSettings.get(MySettings.LDRAWZIP),dbconn);
+					if (!ldr.isOfficial(LDrawLib.OFFICIALINDEX)) {
 						JOptionPane.showMessageDialog(null,
-								"Unable to use downloaded file\n" +
-								"Cause: "+e.getLocalizedMessage()+"\n"+
-								"Try again.",
-								"Library error", JOptionPane.ERROR_MESSAGE);
-						e.printStackTrace();
+								"Downloaded file is corrupted.\n" +
+								"Try to download again.",
+								"Broken file", JOptionPane.ERROR_MESSAGE);
+						continue;
 					}
-				}
-				else {
+					found = true;
+					break;
+				} catch (IOException | SQLException e) {
 					JOptionPane.showMessageDialog(null,
-							"Downloaded file is corrupted.\n" +
-							"Try to download again.",
-							"Broken file", JOptionPane.ERROR_MESSAGE);
+							"Unable to use downloaded file\n" +
+							"Cause: "+e.getLocalizedMessage()+"\n"+
+							"Try again.",
+							"Library error", JOptionPane.ERROR_MESSAGE);
+					Logger.getGlobal().log(Level.WARNING,"[firstRun] Unable to use downloaded library",e);
 				}
 			}
 			if (!found) {
@@ -930,13 +953,14 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 				System.exit(1);
 			}
 		}
+		doPartDBUpdate();
 		LDLibManageDlg dlg = new LDLibManageDlg(frame, "Edit/add other libraries to use", true, ldr);
 		dlg.setVisible(true);
-		if (ldr.getOfficialLibrary() < 0) {
-			// no official library defined!
-			JOptionPane.showMessageDialog(frame, "Official LDraw library not in list.\nYou may have weird/unstable results.", 
-					"Check your libraries", JOptionPane.WARNING_MESSAGE);
-		}
+//		if (!ldr.isOfficial(0)) {
+//			// no official library defined!
+//			JOptionPane.showMessageDialog(frame, "Official LDraw library not in list.\nYou may have weird/unstable results.", 
+//					"Check your libraries", JOptionPane.WARNING_MESSAGE);
+//		}
 		saveLibs(ldr);
 		// here we have all data to continue
 		try {
@@ -1542,15 +1566,11 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 	
 	private LDrawPart doLoadPart(File selected) {
 		LDrawPart.clearCustomParts();
-		BusyDialog busyDialog = new BusyDialog(frame,"Reading project",true,true,icnImg);
+		BusyDialog busyDialog = new BusyDialog(frame,"Reading project",true,icnImg);
 		ImportLDrawProjectTask ldrproject = new ImportLDrawProjectTask(selected);
 		busyDialog.setTask(ldrproject);
-		Timer timer = new Timer(200, busyDialog);
-		ldrproject.execute();
-		timer.start();
-		busyDialog.setVisible(true);
+		busyDialog.startTask();
 		// after completing task return here
-		timer.stop();
 		busyDialog.dispose();
 		//System.out.println(ldrproject.getModel());
 		try {
@@ -1630,7 +1650,7 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 
 	private void doLDrawLibDownload() {
 		
-		BusyDialog busyDialog = new BusyDialog(null,"Download LDraw library",true,true,icnImg);
+		BusyDialog busyDialog = new BusyDialog(null,"Download LDraw library",true,icnImg);
 		busyDialog.setMsg("Downloading library...");
 		GetFileFromURL task;
 		try {
@@ -1640,12 +1660,8 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 			return;
 		}
 		busyDialog.setTask(task);
-		Timer timer = new Timer(200, busyDialog);
-		task.execute();
-		timer.start();
-		busyDialog.setVisible(true);
+		busyDialog.startTask();
 		// after completing task return here
-		timer.stop();
 		busyDialog.dispose();
 		try {
 			task.get(10, TimeUnit.MILLISECONDS);
@@ -1667,16 +1683,12 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 	
 	private void doPartDBUpdate() {
 		
-		BusyDialog busyDialog = new BusyDialog(frame,"Update part database",true,true,icnImg);
+		BusyDialog busyDialog = new BusyDialog(frame,"Update part database",true,icnImg);
 		busyDialog.setMsg("Reading part from library...");
-		LDrawDBImportTask task = new LDrawDBImportTask(ldr, ldrdb);
+		LDrawDBImportTask task = new LDrawDBImportTask(ldr, LDrawLib.OFFICIALINDEX);
 		busyDialog.setTask(task);
-		Timer timer = new Timer(200, busyDialog);
-		task.execute();
-		timer.start();
-		busyDialog.setVisible(true);
+		busyDialog.startTask();
 		// after completing task return here
-		timer.stop();
 		busyDialog.dispose();
 		try {
 			int i = task.get(10, TimeUnit.MILLISECONDS);
@@ -1755,10 +1767,11 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 		
 		String preflib = "";
 		
-		for (int i=0;i<l.count();i++) {
-			if (i > 0) 
+		AppSettings.put(MySettings.LIBOFFICIAL, l.getPath(LDrawLib.OFFICIALINDEX));
+		for (int i=1;i<l.count();i++) {
+			if (i > 1) 
 				preflib += "|";	// adds a separator
-			preflib += l.getPath(i)+"|"+(l.isOfficial(i)?"t":"f")+"|"+(l.isEnabled(i)?"t":"f"); 
+			preflib += l.getPath(i)+"|"+(l.isEnabled(i)?"t":"f"); 
 		}
 		AppSettings.put(MySettings.LIBLIST, preflib);
 	}
@@ -1766,16 +1779,17 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 
 	
 	
-	public LDrawLib loadLibs() throws IOException {
+	public LDrawLib loadLibs() throws IOException, SQLException {
 		
-		LDrawLib l = new LDrawLib();
+		LDrawLib l = null;
+		l = new LDrawLib(AppSettings.get(MySettings.LIBOFFICIAL),dbconn);
 		String preflib = AppSettings.get(MySettings.LIBLIST);
 		String[] libs = preflib.split("\\|");
 		int n = 0;
-		while (n < libs.length) {
+		while (n+1 < libs.length) {
 			// add library and set if official and enabled (string == "t" is for "true")
-			l.addLDLib(libs[n],libs[n+1].equals("t"),libs[n+2].equals("t"));
-			n += 3;
+			l.addLDLib(libs[n],libs[n+1].equals("t"));
+			n += 2;
 		}
 		return l;
 	}
