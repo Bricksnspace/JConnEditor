@@ -99,6 +99,7 @@ import bricksnspace.ldrawlib.LDrawLib;
 import bricksnspace.ldrawlib.LDrawPart;
 import bricksnspace.appsettings.AppSettings;
 import bricksnspace.appsettings.AppUIResolution;
+import bricksnspace.appsettings.AppVersion;
 import bricksnspace.appsettings.OptionsDialog;
 import bricksnspace.busydialog.BusyDialog;
 import bricksnspace.dbconnector.DBConnector;
@@ -251,11 +252,12 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 			Logger.getGlobal().addHandler(logFile);
 			Logger.getGlobal().log(Level.INFO, "Logger started");
 		} catch (IOException e2) {
-			// TODO Auto-generated catch block
 			e2.printStackTrace();
 		}
 
 		imageFolder = AppUIResolution.getImgDir();
+		
+		AppVersion.setMyVersion("0.2.1");
 		
 		// images for busy animation
 		icnImg[0] = new ImageIcon(this.getClass().getResource("images/f0.png"));

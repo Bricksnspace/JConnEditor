@@ -27,6 +27,7 @@ import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
@@ -38,6 +39,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JSeparator;
 import javax.swing.SwingConstants;
+
+import bricksnspace.appsettings.AppVersion;
 
 
 
@@ -72,7 +75,7 @@ public class AboutDialog extends JDialog implements ActionListener {
 		img.setBorder(BorderFactory.createEtchedBorder());
 		img.setAlignmentX(Component.CENTER_ALIGNMENT);
 		body.add(img);
-		prog = new JLabel("Version: 0.2.0",SwingConstants.CENTER);
+		prog = new JLabel("Version: "+AppVersion.myVersion(),SwingConstants.CENTER);
 		prog.setAlignmentX(Component.CENTER_ALIGNMENT);
 		body.add(prog);
 		
@@ -90,7 +93,7 @@ public class AboutDialog extends JDialog implements ActionListener {
 
 		body.add(new JSeparator(SwingConstants.HORIZONTAL));
 
-		prog = new JLabel("© 2014-2015 Mario Pascucci <mpascucci@gmail.com>",SwingConstants.CENTER);
+		prog = new JLabel("© 2014-2017 Mario Pascucci <mpascucci@gmail.com>",SwingConstants.CENTER);
 		prog.setAlignmentX(Component.CENTER_ALIGNMENT);
 		body.add(prog);
 		
