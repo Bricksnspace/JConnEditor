@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part: 3878.dat
+Description: Minifig Top Hat
+Date: 12/05/17 15.02-->
+<connections>
+<cpoint type="R_STUD">
+<base x="0.0" y="0.0" z="0.0"></base>
+<dir x="0.0" y="-7.0" z="0.0"></dir>
+</cpoint>
+</connections>
+

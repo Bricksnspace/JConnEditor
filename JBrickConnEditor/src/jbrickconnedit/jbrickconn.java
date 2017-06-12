@@ -1575,22 +1575,21 @@ public class jbrickconn implements ActionListener, ProgressUpdater, EditChangeLi
 		// after completing task return here
 		busyDialog.dispose();
 		//System.out.println(ldrproject.getModel());
+		LDrawPart part;
 		try {
 			ldrproject.get(10, TimeUnit.MILLISECONDS);
 			if (ldrproject.isWarnings()) {
 				JOptionPane.showMessageDialog(frame, "There are some errors/missing parts. See logs for details", 
 						"Part load messages", JOptionPane.WARNING_MESSAGE);
 			}
+			part = ldrproject.getModel();
+
 		}
-		catch (ExecutionException ex) {
+		catch (ExecutionException | InterruptedException | TimeoutException ex) {
 			ex.printStackTrace();
 			System.out.println(ex.getLocalizedMessage());
-		} catch (InterruptedException e1) {
-			System.out.println(e1.getLocalizedMessage());
-		} catch (TimeoutException e1) {
-			System.out.println(e1.getLocalizedMessage());
+			part = LDrawPart.newEmptyPart();
 		}
-		LDrawPart part = ldrproject.getModel();
 		return part;
 	}
 	
